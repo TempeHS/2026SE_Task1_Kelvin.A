@@ -1,0 +1,11 @@
+- Ability for new users to sign
+- Simple Accessibility features
+- 2FA and session management
+- Online/Offline Functionality
+- Buttons
+- Backend API
+- SQL Databases
+- Frontend Backend
+- Developer log entries are time & date stamped
+- Application meets minimum WC3 PWA standards, providing installation
+- Allow developers to search/filter entries by details
