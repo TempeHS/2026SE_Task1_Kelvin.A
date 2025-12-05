@@ -974,3 +974,238 @@
 2025-12-05 01:50:02,013 127.0.0.1 - - [05/Dec/2025 01:50:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-12-05 01:50:02,039 127.0.0.1 - - [05/Dec/2025 01:50:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2025-12-05 01:50:02,063 127.0.0.1 - - [05/Dec/2025 01:50:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:34:55,049 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.16:5000
+2025-12-05 02:34:55,050 [33mPress CTRL+C to quit[0m
+2025-12-05 02:34:55,050  * Restarting with stat
+2025-12-05 02:34:55,267  * Debugger is active!
+2025-12-05 02:34:55,267  * Debugger PIN: 121-943-321
+2025-12-05 02:35:03,750 127.0.0.1 - - [05/Dec/2025 02:35:03] "GET / HTTP/1.1" 200 -
+2025-12-05 02:35:03,974 127.0.0.1 - - [05/Dec/2025 02:35:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-05 02:35:04,035 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-05 02:35:04,036 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-05 02:35:04,211 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-05 02:35:04,304 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-05 02:35:04,458 127.0.0.1 - - [05/Dec/2025 02:35:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:35:04,461 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-05 02:35:04,586 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,587 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,591 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:35:04,591 127.0.0.1 - - [05/Dec/2025 02:35:04] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:35:04,592 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,596 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,596 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,602 127.0.0.1 - - [05/Dec/2025 02:35:04] "GET / HTTP/1.1" 200 -
+2025-12-05 02:35:04,603 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,603 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,604 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,609 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,610 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,611 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:04,613 127.0.0.1 - - [05/Dec/2025 02:35:04] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-05 02:35:53,431 127.0.0.1 - - [05/Dec/2025 02:35:53] "GET /form.html HTTP/1.1" 200 -
+2025-12-05 02:35:53,622 127.0.0.1 - - [05/Dec/2025 02:35:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:35:53,638 127.0.0.1 - - [05/Dec/2025 02:35:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:35:53,640 127.0.0.1 - - [05/Dec/2025 02:35:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:35:53,769 127.0.0.1 - - [05/Dec/2025 02:35:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:35:53,854 127.0.0.1 - - [05/Dec/2025 02:35:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:34,917  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:36:34,950  * Restarting with stat
+2025-12-05 02:36:35,193  * Debugger is active!
+2025-12-05 02:36:35,193  * Debugger PIN: 121-943-321
+2025-12-05 02:36:37,146 127.0.0.1 - - [05/Dec/2025 02:36:37] "GET /form.html HTTP/1.1" 200 -
+2025-12-05 02:36:37,256 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:37,259 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:37,259 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:37,324 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:37,356 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:37,529 127.0.0.1 - - [05/Dec/2025 02:36:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:36:42,962 127.0.0.1 - - [05/Dec/2025 02:36:42] "GET / HTTP/1.1" 200 -
+2025-12-05 02:36:43,104 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:36:43,105 127.0.0.1 - - [05/Dec/2025 02:36:43] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:36:43,107 127.0.0.1 - - [05/Dec/2025 02:36:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:43,109 127.0.0.1 - - [05/Dec/2025 02:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:43,112 127.0.0.1 - - [05/Dec/2025 02:36:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:43,197 127.0.0.1 - - [05/Dec/2025 02:36:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:43,251 127.0.0.1 - - [05/Dec/2025 02:36:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:46,056 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:36:46,056 127.0.0.1 - - [05/Dec/2025 02:36:46] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:36:54,550  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:36:54,583  * Restarting with stat
+2025-12-05 02:36:54,802  * Debugger is active!
+2025-12-05 02:36:54,802  * Debugger PIN: 121-943-321
+2025-12-05 02:36:59,231 127.0.0.1 - - [05/Dec/2025 02:36:59] "GET / HTTP/1.1" 200 -
+2025-12-05 02:36:59,371 127.0.0.1 - - [05/Dec/2025 02:36:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:59,371 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:36:59,372 127.0.0.1 - - [05/Dec/2025 02:36:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:36:59,373 127.0.0.1 - - [05/Dec/2025 02:36:59] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:36:59,373 127.0.0.1 - - [05/Dec/2025 02:36:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:59,461 127.0.0.1 - - [05/Dec/2025 02:36:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:36:59,490 127.0.0.1 - - [05/Dec/2025 02:36:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:37:01,285 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:37:01,286 127.0.0.1 - - [05/Dec/2025 02:37:01] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:40:09,285 127.0.0.1 - - [05/Dec/2025 02:40:09] "GET / HTTP/1.1" 200 -
+2025-12-05 02:40:09,570 127.0.0.1 - - [05/Dec/2025 02:40:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:40:09,571 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:40:09,571 127.0.0.1 - - [05/Dec/2025 02:40:09] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:40:09,581 127.0.0.1 - - [05/Dec/2025 02:40:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:40:09,592 127.0.0.1 - - [05/Dec/2025 02:40:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:40:09,790 127.0.0.1 - - [05/Dec/2025 02:40:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:40:09,817 127.0.0.1 - - [05/Dec/2025 02:40:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:40:11,940 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:40:11,941 127.0.0.1 - - [05/Dec/2025 02:40:11] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:41:42,282 127.0.0.1 - - [05/Dec/2025 02:41:42] "GET / HTTP/1.1" 200 -
+2025-12-05 02:41:42,378 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,390 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,466 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:41:42,466 127.0.0.1 - - [05/Dec/2025 02:41:42] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:41:42,478 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,533 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,565 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,722 127.0.0.1 - - [05/Dec/2025 02:41:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:41:42,782 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:41:42,782 127.0.0.1 - - [05/Dec/2025 02:41:42] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:41:59,618 127.0.0.1 - - [05/Dec/2025 02:41:59] "GET / HTTP/1.1" 200 -
+2025-12-05 02:41:59,706 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:41:59,708 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:41:59,709 127.0.0.1 - - [05/Dec/2025 02:41:59] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:41:59,711 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:41:59,713 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:59,766 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:59,797 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:41:59,947 127.0.0.1 - - [05/Dec/2025 02:41:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:42:00,004 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:42:00,005 127.0.0.1 - - [05/Dec/2025 02:42:00] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:42:59,809 127.0.0.1 - - [05/Dec/2025 02:42:59] "GET / HTTP/1.1" 200 -
+2025-12-05 02:42:59,901 127.0.0.1 - - [05/Dec/2025 02:42:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:42:59,906 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:42:59,907 127.0.0.1 - - [05/Dec/2025 02:42:59] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:42:59,910 127.0.0.1 - - [05/Dec/2025 02:42:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:42:59,913 127.0.0.1 - - [05/Dec/2025 02:42:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:42:59,967 127.0.0.1 - - [05/Dec/2025 02:42:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:42:59,994 127.0.0.1 - - [05/Dec/2025 02:42:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:43:00,151 127.0.0.1 - - [05/Dec/2025 02:43:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:43:00,195 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:43:00,195 127.0.0.1 - - [05/Dec/2025 02:43:00] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:44:30,088 127.0.0.1 - - [05/Dec/2025 02:44:30] "GET / HTTP/1.1" 200 -
+2025-12-05 02:44:30,209 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,303 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:44:30,303 127.0.0.1 - - [05/Dec/2025 02:44:30] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:44:30,307 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,310 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,424 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,454 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,607 127.0.0.1 - - [05/Dec/2025 02:44:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:44:30,659 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:44:30,659 127.0.0.1 - - [05/Dec/2025 02:44:30] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:44:52,066 127.0.0.1 - - [05/Dec/2025 02:44:52] "GET / HTTP/1.1" 200 -
+2025-12-05 02:44:52,154 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,157 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,160 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,162 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:44:52,162 127.0.0.1 - - [05/Dec/2025 02:44:52] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:44:52,252 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,282 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,421 127.0.0.1 - - [05/Dec/2025 02:44:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:44:52,448 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:44:52,449 127.0.0.1 - - [05/Dec/2025 02:44:52] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:44:54,356 127.0.0.1 - - [05/Dec/2025 02:44:54] "[33mGET /Signup.html HTTP/1.1[0m" 404 -
+2025-12-05 02:44:54,549 127.0.0.1 - - [05/Dec/2025 02:44:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-05 02:49:38,357  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:49:38,385  * Restarting with stat
+2025-12-05 02:49:38,620  * Debugger is active!
+2025-12-05 02:49:38,620  * Debugger PIN: 121-943-321
+2025-12-05 02:51:56,740  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:51:56,771  * Restarting with stat
+2025-12-05 02:51:56,985  * Debugger is active!
+2025-12-05 02:51:56,986  * Debugger PIN: 121-943-321
+2025-12-05 02:52:08,206  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:52:08,242  * Restarting with stat
+2025-12-05 02:52:08,465  * Debugger is active!
+2025-12-05 02:52:08,465  * Debugger PIN: 121-943-321
+2025-12-05 02:52:11,563  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:52:11,594  * Restarting with stat
+2025-12-05 02:52:11,810  * Debugger is active!
+2025-12-05 02:52:11,810  * Debugger PIN: 121-943-321
+2025-12-05 02:52:14,793 127.0.0.1 - - [05/Dec/2025 02:52:14] "GET / HTTP/1.1" 200 -
+2025-12-05 02:52:15,116 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:52:15,117 127.0.0.1 - - [05/Dec/2025 02:52:15] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:52:15,124 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,125 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,129 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,267 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,308 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,469 127.0.0.1 - - [05/Dec/2025 02:52:15] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:52:15,512 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:52:15,512 127.0.0.1 - - [05/Dec/2025 02:52:15] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:52:17,527 127.0.0.1 - - [05/Dec/2025 02:52:17] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-05 02:52:17,604 127.0.0.1 - - [05/Dec/2025 02:52:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:52:17,610 127.0.0.1 - - [05/Dec/2025 02:52:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:52:17,613 127.0.0.1 - - [05/Dec/2025 02:52:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:52:17,647 127.0.0.1 - - [05/Dec/2025 02:52:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:52:17,673 127.0.0.1 - - [05/Dec/2025 02:52:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:53:42,796 127.0.0.1 - - [05/Dec/2025 02:53:42] "GET / HTTP/1.1" 200 -
+2025-12-05 02:53:42,956 127.0.0.1 - - [05/Dec/2025 02:53:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:53:42,962 127.0.0.1 - - [05/Dec/2025 02:53:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:53:43,120 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:53:43,120 127.0.0.1 - - [05/Dec/2025 02:53:43] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:53:43,141 127.0.0.1 - - [05/Dec/2025 02:53:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:53:43,181 127.0.0.1 - - [05/Dec/2025 02:53:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:53:43,215 127.0.0.1 - - [05/Dec/2025 02:53:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:53:45,064 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:53:45,065 127.0.0.1 - - [05/Dec/2025 02:53:45] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:54:33,314 127.0.0.1 - - [05/Dec/2025 02:54:33] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-05 02:54:33,409 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:54:33,411 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:54:33,413 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:33,442 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:33,469 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:33,643 127.0.0.1 - - [05/Dec/2025 02:54:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:54:39,300 127.0.0.1 - - [05/Dec/2025 02:54:39] "GET / HTTP/1.1" 200 -
+2025-12-05 02:54:39,424 127.0.0.1 - - [05/Dec/2025 02:54:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:54:39,426 127.0.0.1 - - [05/Dec/2025 02:54:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:54:39,428 127.0.0.1 - - [05/Dec/2025 02:54:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:39,430 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:54:39,431 127.0.0.1 - - [05/Dec/2025 02:54:39] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:54:39,492 127.0.0.1 - - [05/Dec/2025 02:54:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:39,551 127.0.0.1 - - [05/Dec/2025 02:54:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:54:41,241 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:54:41,242 127.0.0.1 - - [05/Dec/2025 02:54:41] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:55:49,396  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:55:49,433  * Restarting with stat
+2025-12-05 02:55:49,658  * Debugger is active!
+2025-12-05 02:55:49,659  * Debugger PIN: 121-943-321
+2025-12-05 02:55:57,833  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-05 02:55:57,915  * Restarting with stat
+2025-12-05 02:55:58,220  * Debugger is active!
+2025-12-05 02:55:58,220  * Debugger PIN: 121-943-321
+2025-12-05 02:56:40,743 127.0.0.1 - - [05/Dec/2025 02:56:40] "GET / HTTP/1.1" 200 -
+2025-12-05 02:56:41,020 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:56:41,021 127.0.0.1 - - [05/Dec/2025 02:56:41] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:56:41,038 127.0.0.1 - - [05/Dec/2025 02:56:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:56:41,038 127.0.0.1 - - [05/Dec/2025 02:56:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:56:41,039 127.0.0.1 - - [05/Dec/2025 02:56:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:56:41,246 127.0.0.1 - - [05/Dec/2025 02:56:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:56:41,276 127.0.0.1 - - [05/Dec/2025 02:56:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:56:42,838 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:56:42,838 127.0.0.1 - - [05/Dec/2025 02:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:56:44,323 127.0.0.1 - - [05/Dec/2025 02:56:44] "[33mGET /Signup.html HTTP/1.1[0m" 404 -
+2025-12-05 02:56:46,276 127.0.0.1 - - [05/Dec/2025 02:56:46] "GET / HTTP/1.1" 200 -
+2025-12-05 02:56:46,360 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:56:46,360 127.0.0.1 - - [05/Dec/2025 02:56:46] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:56:46,600 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:56:46,600 127.0.0.1 - - [05/Dec/2025 02:56:46] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:57:03,920 127.0.0.1 - - [05/Dec/2025 02:57:03] "GET / HTTP/1.1" 200 -
+2025-12-05 02:57:04,002 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,006 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-05 02:57:04,007 127.0.0.1 - - [05/Dec/2025 02:57:04] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:57:04,010 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,012 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,056 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,082 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,194 127.0.0.1 - - [05/Dec/2025 02:57:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-05 02:57:04,220 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-05 02:57:04,221 127.0.0.1 - - [05/Dec/2025 02:57:04] "POST /csp_report HTTP/1.1" 200 -
+2025-12-05 02:57:06,922 127.0.0.1 - - [05/Dec/2025 02:57:06] "[33mGET /Signup.html HTTP/1.1[0m" 404 -

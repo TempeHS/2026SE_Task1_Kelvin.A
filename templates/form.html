@@ -1,7 +1,7 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="d-flex justify-content-center align-items-center min-vh-100">
   <div class="card p-4" style="width: 100%; max-width: 480px">
-    <h1 class="card-title text-center mb-3">Sign up</h1>
+    <h1 class="card-title text-center mb-3">Login</h1>
     <form>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -12,12 +12,15 @@
           aria-describedby="emailHelp"
         />
         <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
+          I'll never share your email with anyone else. (maybe)
         </div>
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword" />
+      </div>
+      <div id="emailHelp" class="form-text">
+        <a href="/Signup.html">Sign Up</a>
       </div>
       <button type="submit" class="btn btn-primary w-100">Submit</button>
     </form>

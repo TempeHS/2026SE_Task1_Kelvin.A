@@ -58,8 +58,8 @@ def root():
         "frame-src": "'none'",
     }
 )
-def index():
-    return render_template("/index.html")
+def open():
+    return render_template("/form.html")
 
 
 @app.route("/privacy.html", methods=["GET"])
