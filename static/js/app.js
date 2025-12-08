@@ -22,4 +22,18 @@ document.addEventListener("DOMContentLoaded", function () {
       link.removeAttribute("aria-current");
     }
   });
+
+  // Toggle password visibility
+  const togglePasswordBtn = document.getElementById("togglePassword");
+  const passwordInput = document.getElementById("exampleInputPassword");
+
+  if (togglePasswordBtn && passwordInput) {
+    togglePasswordBtn.addEventListener("click", function () {
+      const isPassword = passwordInput.type === "password";
+      passwordInput.type = isPassword ? "text" : "password";
+      togglePasswordBtn.innerHTML = isPassword
+        ? '<i class="bi bi-eye-slash"></i> Hide'
+        : '<i class="bi bi-eye"></i> Show';
+    });
+  }
 });
