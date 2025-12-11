@@ -25,6 +25,10 @@ logging.basicConfig(
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"
 csrf = CSRFProtect(app)
+try:
+    dbHandler.getUsers()
+except Exception as e:
+    app.logger.error(f"Failed to initialize database: {e}")
 
 
 # Redirect index.html to domain root for consistent UX
@@ -67,6 +71,11 @@ def privacy():
     return render_template("/privacy.html")
 
 
+@app.route("/index.hmtl", methods=["GET"])
+def index():
+    return render_template("index.html")
+
+
 # example CSRF protected form
 @app.route("/form.html", methods=["POST", "GET"])
 def form():
@@ -78,15 +87,60 @@ def form():
         return render_template("/form.html")
 
 
+# Redirect to Index.html
+@app.route("/login", methods=["POST"])
+def login():
+    email = request.form.get("email")
+    password = request.form.get("password")
+
+    if not email or not password:
+        return render_template(
+            "form.html", message="Please enter both email and password"
+        )
+
+    # If the db handler exposes an authenticate_user function, use it
+    if hasattr(dbHandler, "authenticate_user"):
+        try:
+            ok = dbHandler.authenticate_user(email, password)
+        except Exception:
+            # log in real code, here just treat as failure
+            ok = False
+
+        if ok:
+            return redirect("/", 302)
+        else:
+            return (
+                render_template("form.html", message="Invalid email or password"),
+                401,
+            )
+
+    # Fallback if db handler not available: redirect
+    return redirect("/", 302)
+
+
 # Redirect to Signup.html
 @app.route("/Signup.html", methods=["POST", "GET"])
 def signup():
     if request.method == "POST":
         email = request.form.get("email")
         password = request.form.get("password")
-        return render_template("/Signup.html")
+        password_confirm = request.form.get("password_confirm")
+
+        if not email or not password or not password_confirm:
+            return render_template(
+                "Signup.html", message="Please enter a Email AND Password"
+            )
+
+        if password != password_confirm:
+            return render_template("Signup.html", message="Passwords do not match")
+
+        success, msg = dbHandler.NewUser(email, password)
+        if success:
+            return render_template("Signup.html", message="Success, Account Created")
+        else:
+            return render_template("Signup.html", message=msg)
     else:
-        return render_template("/Signup.html")
+        return render_template("Signup.html")
 
 
 # Endpoint for logging CSP violations

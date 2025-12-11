@@ -2,13 +2,16 @@
 <div class="d-flex justify-content-center align-items-center min-vh-100">
   <div class="card p-4" style="width: 100%; max-width: 480px">
     <h1 class="card-title text-center mb-3">Login</h1>
-    <form>
+    {% if message %} {% endif %}
+    <form action="/login" method="POST">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input
           type="email"
           class="form-control"
           id="exampleInputEmail1"
+          name="username"
           aria-describedby="emailHelp"
         />
         <div id="emailHelp" class="form-text">
@@ -22,6 +25,7 @@
             type="password"
             class="form-control"
             id="exampleInputPassword"
+            name="password"
           />
           <button
             class="btn btn-outline-secondary"
@@ -35,7 +39,9 @@
       <div id="emailHelp" class="form-text">
         <a href="/Signup.html">Sign Up</a>
       </div>
-      <button type="submit" class="btn btn-primary w-100">Submit</button>
+      <button href="/index.html" type="submit" class="btn btn-primary w-100">
+        Submit
+      </button>
     </form>
   </div>
 </div>
