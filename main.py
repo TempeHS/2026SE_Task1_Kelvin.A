@@ -3,10 +3,12 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask import jsonify
+from flask import session
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
+from datetime import timedelta
 
 import userManagement as dbHandler
 
@@ -24,6 +26,7 @@ logging.basicConfig(
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"
+app.permanent_session_lifetime = timedelta(days=1)
 csrf = CSRFProtect(app)
 try:
     dbHandler.getUsers()
@@ -36,7 +39,6 @@ except Exception as e:
 @app.route("/index.htm", methods=["GET"])
 @app.route("/index.asp", methods=["GET"])
 @app.route("/index.php", methods=["GET"])
-@app.route("/index.html", methods=["GET"])
 def root():
     return redirect("/", 302)
 
@@ -63,7 +65,9 @@ def root():
     }
 )
 def open():
-    return render_template("/form.html")
+    if "email" in session:
+        return redirect("/index.html", 302)
+    return render_template("/Login.html")
 
 
 @app.route("/privacy.html", methods=["GET"])
@@ -71,20 +75,22 @@ def privacy():
     return render_template("/privacy.html")
 
 
-@app.route("/index.hmtl", methods=["GET"])
+@app.route("/index.html", methods=["GET"])
 def index():
+    if "email" not in session:
+        return redirect("/Login.html", 302)
     return render_template("index.html")
 
 
 # example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
+@app.route("/Login.html", methods=["POST", "GET"])
 def form():
     if request.method == "POST":
         email = request.form["email"]
         text = request.form["text"]
-        return render_template("/form.html")
+        return render_template("/Login.html")
     else:
-        return render_template("/form.html")
+        return render_template("/Login.html")
 
 
 # Redirect to Index.html
@@ -95,27 +101,17 @@ def login():
 
     if not email or not password:
         return render_template(
-            "form.html", message="Please enter both email and password"
+            "Login.html", message="Please enter both email and password"
         )
 
-    # If the db handler exposes an authenticate_user function, use it
-    if hasattr(dbHandler, "authenticate_user"):
-        try:
-            ok = dbHandler.authenticate_user(email, password)
-        except Exception:
-            # log in real code, here just treat as failure
-            ok = False
-
-        if ok:
-            return redirect("/", 302)
-        else:
-            return (
-                render_template("form.html", message="Invalid email or password"),
-                401,
-            )
-
-    # Fallback if db handler not available: redirect
-    return redirect("/", 302)
+    if dbHandler.authenticate(email, password):
+        session.permanent = True
+        session["email"] = email
+        return redirect("/index.html", 302)
+    else:
+        return render_template(
+            "Login.html", message="invalid email or password", message_type="danger"
+        )
 
 
 # Redirect to Signup.html
@@ -128,7 +124,7 @@ def signup():
 
         if not email or not password or not password_confirm:
             return render_template(
-                "Signup.html", message="Please enter a Email AND Password"
+                "Signup.html", message="Please enter a Email and Password"
             )
 
         if password != password_confirm:

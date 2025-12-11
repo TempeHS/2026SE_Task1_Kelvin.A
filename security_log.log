@@ -2773,3 +2773,1004 @@
 2025-12-11 04:01:25,394 127.0.0.1 - - [11/Dec/2025 04:01:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
 2025-12-11 04:01:25,424 127.0.0.1 - - [11/Dec/2025 04:01:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-12-11 04:01:25,452 127.0.0.1 - - [11/Dec/2025 04:01:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:19,179 Failed to initialize database: near "-": syntax error
+2025-12-11 22:26:19,228 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:26:19,229 [33mPress CTRL+C to quit[0m
+2025-12-11 22:26:19,230  * Restarting with stat
+2025-12-11 22:26:19,432 Failed to initialize database: near "-": syntax error
+2025-12-11 22:26:19,460  * Debugger is active!
+2025-12-11 22:26:19,461  * Debugger PIN: 127-914-354
+2025-12-11 22:26:22,404 127.0.0.1 - - [11/Dec/2025 22:26:22] "GET / HTTP/1.1" 200 -
+2025-12-11 22:26:22,649 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 22:26:22,649 127.0.0.1 - - [11/Dec/2025 22:26:22] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:26:22,655 127.0.0.1 - - [11/Dec/2025 22:26:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:22,657 127.0.0.1 - - [11/Dec/2025 22:26:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:26:22,670 127.0.0.1 - - [11/Dec/2025 22:26:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:26:22,782 127.0.0.1 - - [11/Dec/2025 22:26:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:22,810 127.0.0.1 - - [11/Dec/2025 22:26:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:22,914 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 22:26:22,915 127.0.0.1 - - [11/Dec/2025 22:26:22] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:26:53,115 127.0.0.1 - - [11/Dec/2025 22:26:53] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:26:53,168 127.0.0.1 - - [11/Dec/2025 22:26:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:53,171 127.0.0.1 - - [11/Dec/2025 22:26:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:26:53,174 127.0.0.1 - - [11/Dec/2025 22:26:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:26:53,209 127.0.0.1 - - [11/Dec/2025 22:26:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:26:53,235 127.0.0.1 - - [11/Dec/2025 22:26:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:28:29,575  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:28:29,603  * Restarting with stat
+2025-12-11 22:32:34,083 Failed to initialize database: near "-": syntax error
+2025-12-11 22:32:34,123 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:32:34,123 [33mPress CTRL+C to quit[0m
+2025-12-11 22:32:34,124  * Restarting with stat
+2025-12-11 22:32:34,349 Failed to initialize database: near "-": syntax error
+2025-12-11 22:32:34,376  * Debugger is active!
+2025-12-11 22:32:34,376  * Debugger PIN: 127-914-354
+2025-12-11 22:32:34,464 127.0.0.1 - - [11/Dec/2025 22:32:34] "GET / HTTP/1.1" 200 -
+2025-12-11 22:32:34,682 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 22:32:34,682 127.0.0.1 - - [11/Dec/2025 22:32:34] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:32:34,709 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,710 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,711 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,825 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,860 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,889 127.0.0.1 - - [11/Dec/2025 22:32:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:32:34,945 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 22:32:34,945 127.0.0.1 - - [11/Dec/2025 22:32:34] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:32:53,163 127.0.0.1 - - [11/Dec/2025 22:32:53] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:32:53,207 127.0.0.1 - - [11/Dec/2025 22:32:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:32:53,218 127.0.0.1 - - [11/Dec/2025 22:32:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:32:53,223 127.0.0.1 - - [11/Dec/2025 22:32:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:32:53,254 127.0.0.1 - - [11/Dec/2025 22:32:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:32:53,276 127.0.0.1 - - [11/Dec/2025 22:32:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:39,279  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:35:39,313  * Restarting with stat
+2025-12-11 22:35:39,513 Failed to initialize database: near "-": syntax error
+2025-12-11 22:35:39,543  * Debugger is active!
+2025-12-11 22:35:39,543  * Debugger PIN: 127-914-354
+2025-12-11 22:35:44,667  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:35:44,698  * Restarting with stat
+2025-12-11 22:35:44,909 Failed to initialize database: near "-": syntax error
+2025-12-11 22:35:44,940  * Debugger is active!
+2025-12-11 22:35:44,940  * Debugger PIN: 127-914-354
+2025-12-11 22:35:45,987  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:35:46,018  * Restarting with stat
+2025-12-11 22:35:46,219 Failed to initialize database: near "-": syntax error
+2025-12-11 22:35:46,251  * Debugger is active!
+2025-12-11 22:35:46,251  * Debugger PIN: 127-914-354
+2025-12-11 22:35:47,330 127.0.0.1 - - [11/Dec/2025 22:35:47] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:35:47,575 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:47,576 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:47,576 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:47,708 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:47,824 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:47,867 127.0.0.1 - - [11/Dec/2025 22:35:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:35:49,342 127.0.0.1 - - [11/Dec/2025 22:35:49] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:35:49,393 127.0.0.1 - - [11/Dec/2025 22:35:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:49,398 127.0.0.1 - - [11/Dec/2025 22:35:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:49,403 127.0.0.1 - - [11/Dec/2025 22:35:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:49,435 127.0.0.1 - - [11/Dec/2025 22:35:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:49,463 127.0.0.1 - - [11/Dec/2025 22:35:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:50,334 127.0.0.1 - - [11/Dec/2025 22:35:50] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:35:50,382 127.0.0.1 - - [11/Dec/2025 22:35:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:50,386 127.0.0.1 - - [11/Dec/2025 22:35:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:50,388 127.0.0.1 - - [11/Dec/2025 22:35:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:35:50,422 127.0.0.1 - - [11/Dec/2025 22:35:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:35:50,448 127.0.0.1 - - [11/Dec/2025 22:35:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:25,913  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:36:25,960  * Restarting with stat
+2025-12-11 22:36:26,188 Failed to initialize database: near "-": syntax error
+2025-12-11 22:36:26,219  * Debugger is active!
+2025-12-11 22:36:26,219  * Debugger PIN: 127-914-354
+2025-12-11 22:36:47,577  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:36:47,607  * Restarting with stat
+2025-12-11 22:36:47,791 Failed to initialize database: near "-": syntax error
+2025-12-11 22:36:47,819  * Debugger is active!
+2025-12-11 22:36:47,820  * Debugger PIN: 127-914-354
+2025-12-11 22:36:50,901  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:36:50,930  * Restarting with stat
+2025-12-11 22:36:51,118 Failed to initialize database: near "-": syntax error
+2025-12-11 22:36:51,146  * Debugger is active!
+2025-12-11 22:36:51,146  * Debugger PIN: 127-914-354
+2025-12-11 22:36:53,688 127.0.0.1 - - [11/Dec/2025 22:36:53] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:36:53,742 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:36:53,746 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:36:53,747 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:53,780 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:53,804 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:53,834 127.0.0.1 - - [11/Dec/2025 22:36:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,010 127.0.0.1 - - [11/Dec/2025 22:36:54] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:36:54,055 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,058 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,060 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,097 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,120 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:36:54,151 127.0.0.1 - - [11/Dec/2025 22:36:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:37:48,992 127.0.0.1 - - [11/Dec/2025 22:37:48] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:37:49,041 127.0.0.1 - - [11/Dec/2025 22:37:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:37:49,044 127.0.0.1 - - [11/Dec/2025 22:37:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:37:49,046 127.0.0.1 - - [11/Dec/2025 22:37:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:37:49,079 127.0.0.1 - - [11/Dec/2025 22:37:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:37:49,107 127.0.0.1 - - [11/Dec/2025 22:37:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:40:08,263 127.0.0.1 - - [11/Dec/2025 22:40:08] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-12-11 22:40:08,416 127.0.0.1 - - [11/Dec/2025 22:40:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:40:08,421 127.0.0.1 - - [11/Dec/2025 22:40:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-11 22:40:08,542 127.0.0.1 - - [11/Dec/2025 22:40:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=gWGohpwSxzktnI9zrd2c HTTP/1.1" 200 -
+2025-12-11 22:40:08,635 127.0.0.1 - - [11/Dec/2025 22:40:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-11 22:40:52,793 127.0.0.1 - - [11/Dec/2025 22:40:52] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:40:52,842 127.0.0.1 - - [11/Dec/2025 22:40:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:40:52,845 127.0.0.1 - - [11/Dec/2025 22:40:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:40:52,847 127.0.0.1 - - [11/Dec/2025 22:40:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:40:52,882 127.0.0.1 - - [11/Dec/2025 22:40:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:40:52,980 127.0.0.1 - - [11/Dec/2025 22:40:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:40:53,012 127.0.0.1 - - [11/Dec/2025 22:40:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,196 127.0.0.1 - - [11/Dec/2025 22:41:10] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:41:10,240 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,243 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,246 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,275 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,301 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:10,333 127.0.0.1 - - [11/Dec/2025 22:41:10] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:41:14,730 127.0.0.1 - - [11/Dec/2025 22:41:14] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:41:14,774 127.0.0.1 - - [11/Dec/2025 22:41:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:14,777 127.0.0.1 - - [11/Dec/2025 22:41:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:14,779 127.0.0.1 - - [11/Dec/2025 22:41:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:14,806 127.0.0.1 - - [11/Dec/2025 22:41:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:14,830 127.0.0.1 - - [11/Dec/2025 22:41:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:15,237 127.0.0.1 - - [11/Dec/2025 22:41:15] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:41:15,286 127.0.0.1 - - [11/Dec/2025 22:41:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:15,290 127.0.0.1 - - [11/Dec/2025 22:41:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:15,291 127.0.0.1 - - [11/Dec/2025 22:41:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:15,318 127.0.0.1 - - [11/Dec/2025 22:41:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:15,342 127.0.0.1 - - [11/Dec/2025 22:41:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:24,715 127.0.0.1 - - [11/Dec/2025 22:41:24] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:41:24,765 127.0.0.1 - - [11/Dec/2025 22:41:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:24,767 127.0.0.1 - - [11/Dec/2025 22:41:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:24,774 127.0.0.1 - - [11/Dec/2025 22:41:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:24,805 127.0.0.1 - - [11/Dec/2025 22:41:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:24,830 127.0.0.1 - - [11/Dec/2025 22:41:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:29,789 127.0.0.1 - - [11/Dec/2025 22:41:29] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:41:29,841 127.0.0.1 - - [11/Dec/2025 22:41:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:29,844 127.0.0.1 - - [11/Dec/2025 22:41:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:29,847 127.0.0.1 - - [11/Dec/2025 22:41:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:41:29,881 127.0.0.1 - - [11/Dec/2025 22:41:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:41:29,906 127.0.0.1 - - [11/Dec/2025 22:41:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,730 127.0.0.1 - - [11/Dec/2025 22:42:46] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:42:46,780 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,786 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,847 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,936 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,962 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:46,990 127.0.0.1 - - [11/Dec/2025 22:42:46] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:42:49,195 127.0.0.1 - - [11/Dec/2025 22:42:49] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:42:49,243 127.0.0.1 - - [11/Dec/2025 22:42:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:49,245 127.0.0.1 - - [11/Dec/2025 22:42:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:49,247 127.0.0.1 - - [11/Dec/2025 22:42:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:49,274 127.0.0.1 - - [11/Dec/2025 22:42:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:49,295 127.0.0.1 - - [11/Dec/2025 22:42:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:50,961 127.0.0.1 - - [11/Dec/2025 22:42:50] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:42:51,009 127.0.0.1 - - [11/Dec/2025 22:42:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:51,012 127.0.0.1 - - [11/Dec/2025 22:42:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:51,015 127.0.0.1 - - [11/Dec/2025 22:42:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:51,040 127.0.0.1 - - [11/Dec/2025 22:42:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:51,062 127.0.0.1 - - [11/Dec/2025 22:42:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:52,663 127.0.0.1 - - [11/Dec/2025 22:42:52] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:42:52,715 127.0.0.1 - - [11/Dec/2025 22:42:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:52,718 127.0.0.1 - - [11/Dec/2025 22:42:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:42:52,721 127.0.0.1 - - [11/Dec/2025 22:42:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:52,747 127.0.0.1 - - [11/Dec/2025 22:42:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:42:52,772 127.0.0.1 - - [11/Dec/2025 22:42:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:02,829  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 22:43:02,865  * Restarting with stat
+2025-12-11 22:43:03,055 Failed to initialize database: near "-": syntax error
+2025-12-11 22:43:03,086  * Debugger is active!
+2025-12-11 22:43:03,087  * Debugger PIN: 127-914-354
+2025-12-11 22:43:03,585 127.0.0.1 - - [11/Dec/2025 22:43:03] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:43:03,641 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:03,642 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:43:03,643 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:43:03,736 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:03,767 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:03,796 127.0.0.1 - - [11/Dec/2025 22:43:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:43:09,441 127.0.0.1 - - [11/Dec/2025 22:43:09] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:43:09,488 127.0.0.1 - - [11/Dec/2025 22:43:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:43:09,491 127.0.0.1 - - [11/Dec/2025 22:43:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:43:09,493 127.0.0.1 - - [11/Dec/2025 22:43:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:09,520 127.0.0.1 - - [11/Dec/2025 22:43:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:09,543 127.0.0.1 - - [11/Dec/2025 22:43:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:43:38,577 Failed to initialize database: near "-": syntax error
+2025-12-11 22:43:56,715 Failed to initialize database: near "-": syntax error
+2025-12-11 22:43:56,754 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.3.102:5001
+2025-12-11 22:43:56,754 [33mPress CTRL+C to quit[0m
+2025-12-11 22:43:56,754  * Restarting with stat
+2025-12-11 22:43:56,958 Failed to initialize database: near "-": syntax error
+2025-12-11 22:43:56,988  * Debugger is active!
+2025-12-11 22:43:56,988  * Debugger PIN: 127-914-354
+2025-12-11 22:44:11,346 127.0.0.1 - - [11/Dec/2025 22:44:11] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:44:11,399 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:44:11,402 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:44:11,405 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:44:11,436 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:44:11,460 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:44:11,488 127.0.0.1 - - [11/Dec/2025 22:44:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 22:47:42,407 Failed to initialize database: near "-": syntax error
+2025-12-11 22:47:58,402 Failed to initialize database: near "-": syntax error
+2025-12-11 22:47:58,446 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.3.102:5001
+2025-12-11 22:47:58,446 [33mPress CTRL+C to quit[0m
+2025-12-11 22:47:58,447  * Restarting with stat
+2025-12-11 22:48:51,952 127.0.0.1 - - [11/Dec/2025 22:48:51] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:48:51,958 127.0.0.1 - - [11/Dec/2025 22:48:51] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 22:48:51,960 127.0.0.1 - - [11/Dec/2025 22:48:51] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:48:51,963 127.0.0.1 - - [11/Dec/2025 22:48:51] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:49:55,869 127.0.0.1 - - [11/Dec/2025 22:49:55] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 22:49:55,872 127.0.0.1 - - [11/Dec/2025 22:49:55] "POST /login HTTP/1.1" 200 -
+2025-12-11 22:51:17,722  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:51:17,762  * Restarting with stat
+2025-12-11 22:51:17,996  * Debugger is active!
+2025-12-11 22:51:17,996  * Debugger PIN: 127-914-354
+2025-12-11 22:51:39,352  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:51:39,379  * Restarting with stat
+2025-12-11 22:51:39,611  * Debugger is active!
+2025-12-11 22:51:39,611  * Debugger PIN: 127-914-354
+2025-12-11 22:52:34,471  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:52:34,499  * Restarting with stat
+2025-12-11 22:52:34,725  * Debugger is active!
+2025-12-11 22:52:34,725  * Debugger PIN: 127-914-354
+2025-12-11 22:52:57,025 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:52:57,025 [33mPress CTRL+C to quit[0m
+2025-12-11 22:52:57,026  * Restarting with stat
+2025-12-11 22:53:28,157 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:53:28,158 [33mPress CTRL+C to quit[0m
+2025-12-11 22:53:28,158  * Restarting with stat
+2025-12-11 22:53:51,026 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:53:51,026 [33mPress CTRL+C to quit[0m
+2025-12-11 22:53:51,027  * Restarting with stat
+2025-12-11 22:53:51,243  * Debugger is active!
+2025-12-11 22:53:51,244  * Debugger PIN: 127-914-354
+2025-12-11 22:53:51,568 127.0.0.1 - - [11/Dec/2025 22:53:51] "GET / HTTP/1.1" 200 -
+2025-12-11 22:53:51,833 127.0.0.1 - - [11/Dec/2025 22:53:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 22:53:51,876 127.0.0.1 - - [11/Dec/2025 22:53:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 22:53:51,879 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 22:53:51,879 127.0.0.1 - - [11/Dec/2025 22:53:51] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:53:51,886 127.0.0.1 - - [11/Dec/2025 22:53:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 22:53:51,998 127.0.0.1 - - [11/Dec/2025 22:53:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 22:53:52,023 127.0.0.1 - - [11/Dec/2025 22:53:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 22:53:52,092 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 22:53:52,092 127.0.0.1 - - [11/Dec/2025 22:53:52] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 22:53:58,380  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:53:58,407  * Restarting with stat
+2025-12-11 22:53:58,622  * Debugger is active!
+2025-12-11 22:53:58,623  * Debugger PIN: 127-914-354
+2025-12-11 22:53:59,677  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:53:59,708  * Restarting with stat
+2025-12-11 22:53:59,931  * Debugger is active!
+2025-12-11 22:53:59,932  * Debugger PIN: 127-914-354
+2025-12-11 22:55:08,348 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:55:08,348 [33mPress CTRL+C to quit[0m
+2025-12-11 22:55:08,349  * Restarting with stat
+2025-12-11 22:55:08,553  * Debugger is active!
+2025-12-11 22:55:08,553  * Debugger PIN: 127-914-354
+2025-12-11 22:55:55,289  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-11 22:55:55,315  * Restarting with stat
+2025-12-11 22:55:55,529  * Debugger is active!
+2025-12-11 22:55:55,530  * Debugger PIN: 127-914-354
+2025-12-11 22:59:01,274 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 22:59:01,274 [33mPress CTRL+C to quit[0m
+2025-12-11 22:59:01,274  * Restarting with stat
+2025-12-11 22:59:01,484  * Debugger is active!
+2025-12-11 22:59:01,484  * Debugger PIN: 127-914-354
+2025-12-11 23:00:10,714 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:00:10,714 [33mPress CTRL+C to quit[0m
+2025-12-11 23:00:10,715  * Restarting with stat
+2025-12-11 23:00:10,931  * Debugger is active!
+2025-12-11 23:00:10,932  * Debugger PIN: 127-914-354
+2025-12-11 23:00:25,507 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:00:25,507 [33mPress CTRL+C to quit[0m
+2025-12-11 23:00:25,507  * Restarting with stat
+2025-12-11 23:00:25,715  * Debugger is active!
+2025-12-11 23:00:25,715  * Debugger PIN: 127-914-354
+2025-12-11 23:00:48,144 127.0.0.1 - - [11/Dec/2025 23:00:48] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:00:48,419 127.0.0.1 - - [11/Dec/2025 23:00:48] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:00:48,424 127.0.0.1 - - [11/Dec/2025 23:00:48] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:00:48,705 127.0.0.1 - - [11/Dec/2025 23:00:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:00:48,709 127.0.0.1 - - [11/Dec/2025 23:00:48] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:00:48,987 127.0.0.1 - - [11/Dec/2025 23:00:48] "POST /login HTTP/1.1" 200 -
+2025-12-11 23:00:48,990 127.0.0.1 - - [11/Dec/2025 23:00:48] "GET / HTTP/1.1" 200 -
+2025-12-11 23:00:48,993 127.0.0.1 - - [11/Dec/2025 23:00:48] "GET /privacy.html HTTP/1.1" 200 -
+2025-12-11 23:01:15,333 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:01:15,333 [33mPress CTRL+C to quit[0m
+2025-12-11 23:01:15,333  * Restarting with stat
+2025-12-11 23:01:15,542  * Debugger is active!
+2025-12-11 23:01:15,543  * Debugger PIN: 127-914-354
+2025-12-11 23:01:17,224 127.0.0.1 - - [11/Dec/2025 23:01:17] "GET / HTTP/1.1" 200 -
+2025-12-11 23:01:17,436 127.0.0.1 - - [11/Dec/2025 23:01:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:17,445 127.0.0.1 - - [11/Dec/2025 23:01:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-11 23:01:17,456 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:01:17,456 127.0.0.1 - - [11/Dec/2025 23:01:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:01:17,514 127.0.0.1 - - [11/Dec/2025 23:01:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-11 23:01:17,674 127.0.0.1 - - [11/Dec/2025 23:01:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:17,698 127.0.0.1 - - [11/Dec/2025 23:01:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:17,725 127.0.0.1 - - [11/Dec/2025 23:01:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:01:17,767 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:01:17,768 127.0.0.1 - - [11/Dec/2025 23:01:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:01:28,487 127.0.0.1 - - [11/Dec/2025 23:01:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:01:28,512 127.0.0.1 - - [11/Dec/2025 23:01:28] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:01:28,539 127.0.0.1 - - [11/Dec/2025 23:01:28] "GET / HTTP/1.1" 200 -
+2025-12-11 23:01:28,596 127.0.0.1 - - [11/Dec/2025 23:01:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:28,600 127.0.0.1 - - [11/Dec/2025 23:01:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:28,603 127.0.0.1 - - [11/Dec/2025 23:01:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:28,607 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:01:28,608 127.0.0.1 - - [11/Dec/2025 23:01:28] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:01:28,629 127.0.0.1 - - [11/Dec/2025 23:01:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:28,656 127.0.0.1 - - [11/Dec/2025 23:01:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:28,715 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:01:28,716 127.0.0.1 - - [11/Dec/2025 23:01:28] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:01:31,927 127.0.0.1 - - [11/Dec/2025 23:01:31] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:01:31,971 127.0.0.1 - - [11/Dec/2025 23:01:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:31,974 127.0.0.1 - - [11/Dec/2025 23:01:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:31,976 127.0.0.1 - - [11/Dec/2025 23:01:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:32,004 127.0.0.1 - - [11/Dec/2025 23:01:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:32,029 127.0.0.1 - - [11/Dec/2025 23:01:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:32,928 127.0.0.1 - - [11/Dec/2025 23:01:32] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:01:32,973 127.0.0.1 - - [11/Dec/2025 23:01:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:32,976 127.0.0.1 - - [11/Dec/2025 23:01:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:32,978 127.0.0.1 - - [11/Dec/2025 23:01:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:33,009 127.0.0.1 - - [11/Dec/2025 23:01:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:33,034 127.0.0.1 - - [11/Dec/2025 23:01:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,397 127.0.0.1 - - [11/Dec/2025 23:01:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:01:41,420 127.0.0.1 - - [11/Dec/2025 23:01:41] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:01:41,443 127.0.0.1 - - [11/Dec/2025 23:01:41] "GET / HTTP/1.1" 200 -
+2025-12-11 23:01:41,500 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/Login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:01:41,500 127.0.0.1 - - [11/Dec/2025 23:01:41] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:01:41,504 127.0.0.1 - - [11/Dec/2025 23:01:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,505 127.0.0.1 - - [11/Dec/2025 23:01:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,507 127.0.0.1 - - [11/Dec/2025 23:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,535 127.0.0.1 - - [11/Dec/2025 23:01:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,558 127.0.0.1 - - [11/Dec/2025 23:01:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:01:41,610 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/Login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:01:41,611 127.0.0.1 - - [11/Dec/2025 23:01:41] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:02:12,197 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:02:12,198 [33mPress CTRL+C to quit[0m
+2025-12-11 23:02:12,198  * Restarting with stat
+2025-12-11 23:02:12,405  * Debugger is active!
+2025-12-11 23:02:12,405  * Debugger PIN: 127-914-354
+2025-12-11 23:02:20,769 127.0.0.1 - - [11/Dec/2025 23:02:20] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:02:21,042 127.0.0.1 - - [11/Dec/2025 23:02:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:02:21,045 127.0.0.1 - - [11/Dec/2025 23:02:21] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:02:21,047 127.0.0.1 - - [11/Dec/2025 23:02:21] "GET / HTTP/1.1" 200 -
+2025-12-11 23:02:21,050 127.0.0.1 - - [11/Dec/2025 23:02:21] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:02:21,340 127.0.0.1 - - [11/Dec/2025 23:02:21] "POST /login HTTP/1.1" 200 -
+2025-12-11 23:04:01,318 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:04:01,318 [33mPress CTRL+C to quit[0m
+2025-12-11 23:04:01,318  * Restarting with stat
+2025-12-11 23:04:01,533  * Debugger is active!
+2025-12-11 23:04:01,534  * Debugger PIN: 127-914-354
+2025-12-11 23:04:01,900 127.0.0.1 - - [11/Dec/2025 23:04:01] "GET / HTTP/1.1" 200 -
+2025-12-11 23:04:02,135 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:04:02,136 127.0.0.1 - - [11/Dec/2025 23:04:02] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:04:02,178 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,179 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,179 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,311 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,337 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,363 127.0.0.1 - - [11/Dec/2025 23:04:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:04:02,406 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:04:02,406 127.0.0.1 - - [11/Dec/2025 23:04:02] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:04:04,152 127.0.0.1 - - [11/Dec/2025 23:04:04] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:04:04,200 127.0.0.1 - - [11/Dec/2025 23:04:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:04,203 127.0.0.1 - - [11/Dec/2025 23:04:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:04,204 127.0.0.1 - - [11/Dec/2025 23:04:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:04,234 127.0.0.1 - - [11/Dec/2025 23:04:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:04,260 127.0.0.1 - - [11/Dec/2025 23:04:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:17,396 127.0.0.1 - - [11/Dec/2025 23:04:17] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:04:17,446 127.0.0.1 - - [11/Dec/2025 23:04:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:17,449 127.0.0.1 - - [11/Dec/2025 23:04:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:17,451 127.0.0.1 - - [11/Dec/2025 23:04:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:17,486 127.0.0.1 - - [11/Dec/2025 23:04:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:17,513 127.0.0.1 - - [11/Dec/2025 23:04:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:18,614 127.0.0.1 - - [11/Dec/2025 23:04:18] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:04:18,664 127.0.0.1 - - [11/Dec/2025 23:04:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:18,667 127.0.0.1 - - [11/Dec/2025 23:04:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:18,669 127.0.0.1 - - [11/Dec/2025 23:04:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:18,698 127.0.0.1 - - [11/Dec/2025 23:04:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:18,722 127.0.0.1 - - [11/Dec/2025 23:04:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,582 127.0.0.1 - - [11/Dec/2025 23:04:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:04:24,608 127.0.0.1 - - [11/Dec/2025 23:04:24] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:04:24,631 127.0.0.1 - - [11/Dec/2025 23:04:24] "GET / HTTP/1.1" 200 -
+2025-12-11 23:04:24,688 127.0.0.1 - - [11/Dec/2025 23:04:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,691 127.0.0.1 - - [11/Dec/2025 23:04:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,693 127.0.0.1 - - [11/Dec/2025 23:04:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,695 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/Login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:04:24,696 127.0.0.1 - - [11/Dec/2025 23:04:24] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:04:24,722 127.0.0.1 - - [11/Dec/2025 23:04:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,752 127.0.0.1 - - [11/Dec/2025 23:04:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:24,801 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/Login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:04:24,801 127.0.0.1 - - [11/Dec/2025 23:04:24] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:04:44,556 127.0.0.1 - - [11/Dec/2025 23:04:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:04:44,585 127.0.0.1 - - [11/Dec/2025 23:04:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:04:44,615 127.0.0.1 - - [11/Dec/2025 23:04:44] "GET / HTTP/1.1" 200 -
+2025-12-11 23:04:44,671 127.0.0.1 - - [11/Dec/2025 23:04:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:44,675 127.0.0.1 - - [11/Dec/2025 23:04:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:44,678 127.0.0.1 - - [11/Dec/2025 23:04:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:04:44,681 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:04:44,681 127.0.0.1 - - [11/Dec/2025 23:04:44] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:04:44,713 127.0.0.1 - - [11/Dec/2025 23:04:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:44,737 127.0.0.1 - - [11/Dec/2025 23:04:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:04:44,788 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:04:44,789 127.0.0.1 - - [11/Dec/2025 23:04:44] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:05:34,867 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:05:34,867 [33mPress CTRL+C to quit[0m
+2025-12-11 23:05:34,868  * Restarting with stat
+2025-12-11 23:05:35,073  * Debugger is active!
+2025-12-11 23:05:35,074  * Debugger PIN: 127-914-354
+2025-12-11 23:05:38,827 127.0.0.1 - - [11/Dec/2025 23:05:38] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:05:39,105 127.0.0.1 - - [11/Dec/2025 23:05:39] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:05:47,163 127.0.0.1 - - [11/Dec/2025 23:05:47] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:05:47,442 127.0.0.1 - - [11/Dec/2025 23:05:47] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:05:55,879 127.0.0.1 - - [11/Dec/2025 23:05:55] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:05:56,157 127.0.0.1 - - [11/Dec/2025 23:05:56] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:06:01,539 127.0.0.1 - - [11/Dec/2025 23:06:01] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:06:01,820 127.0.0.1 - - [11/Dec/2025 23:06:01] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:06:14,297 127.0.0.1 - - [11/Dec/2025 23:06:14] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:06:14,578 127.0.0.1 - - [11/Dec/2025 23:06:14] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:06:15,135 127.0.0.1 - - [11/Dec/2025 23:06:15] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:06:15,407 127.0.0.1 - - [11/Dec/2025 23:06:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:06:15,411 127.0.0.1 - - [11/Dec/2025 23:06:15] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:06:15,684 127.0.0.1 - - [11/Dec/2025 23:06:15] "POST /login HTTP/1.1" 200 -
+2025-12-11 23:07:18,237 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:07:18,237 [33mPress CTRL+C to quit[0m
+2025-12-11 23:07:18,237  * Restarting with stat
+2025-12-11 23:07:18,443  * Debugger is active!
+2025-12-11 23:07:18,443  * Debugger PIN: 127-914-354
+2025-12-11 23:07:19,814 127.0.0.1 - - [11/Dec/2025 23:07:19] "GET / HTTP/1.1" 200 -
+2025-12-11 23:07:20,033 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,038 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,039 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:07:20,039 127.0.0.1 - - [11/Dec/2025 23:07:20] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:07:20,045 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,153 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,178 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,210 127.0.0.1 - - [11/Dec/2025 23:07:20] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:07:20,237 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:07:20,237 127.0.0.1 - - [11/Dec/2025 23:07:20] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:07:27,053 127.0.0.1 - - [11/Dec/2025 23:07:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:07:27,077 127.0.0.1 - - [11/Dec/2025 23:07:27] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:07:27,103 127.0.0.1 - - [11/Dec/2025 23:07:27] "GET / HTTP/1.1" 200 -
+2025-12-11 23:07:27,167 127.0.0.1 - - [11/Dec/2025 23:07:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:27,169 127.0.0.1 - - [11/Dec/2025 23:07:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:27,171 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:07:27,171 127.0.0.1 - - [11/Dec/2025 23:07:27] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:07:27,173 127.0.0.1 - - [11/Dec/2025 23:07:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:27,205 127.0.0.1 - - [11/Dec/2025 23:07:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:27,233 127.0.0.1 - - [11/Dec/2025 23:07:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:27,312 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:07:27,312 127.0.0.1 - - [11/Dec/2025 23:07:27] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:07:40,581 127.0.0.1 - - [11/Dec/2025 23:07:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:07:40,604 127.0.0.1 - - [11/Dec/2025 23:07:40] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:07:40,626 127.0.0.1 - - [11/Dec/2025 23:07:40] "GET / HTTP/1.1" 200 -
+2025-12-11 23:07:40,679 127.0.0.1 - - [11/Dec/2025 23:07:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:40,681 127.0.0.1 - - [11/Dec/2025 23:07:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:07:40,683 127.0.0.1 - - [11/Dec/2025 23:07:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:40,685 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:07:40,686 127.0.0.1 - - [11/Dec/2025 23:07:40] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:07:40,709 127.0.0.1 - - [11/Dec/2025 23:07:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:40,734 127.0.0.1 - - [11/Dec/2025 23:07:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:07:40,788 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:07:40,788 127.0.0.1 - - [11/Dec/2025 23:07:40] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:08:05,159 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:08:05,159 [33mPress CTRL+C to quit[0m
+2025-12-11 23:08:05,160  * Restarting with stat
+2025-12-11 23:08:05,365  * Debugger is active!
+2025-12-11 23:08:05,366  * Debugger PIN: 127-914-354
+2025-12-11 23:08:09,559 127.0.0.1 - - [11/Dec/2025 23:08:09] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:09,841 127.0.0.1 - - [11/Dec/2025 23:08:09] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:09,846 127.0.0.1 - - [11/Dec/2025 23:08:09] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:08:10,128 127.0.0.1 - - [11/Dec/2025 23:08:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:08:31,976 127.0.0.1 - - [11/Dec/2025 23:08:31] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:32,250 127.0.0.1 - - [11/Dec/2025 23:08:32] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:32,252 127.0.0.1 - - [11/Dec/2025 23:08:32] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:08:32,551 127.0.0.1 - - [11/Dec/2025 23:08:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:08:32,829 127.0.0.1 - - [11/Dec/2025 23:08:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:08:32,831 127.0.0.1 - - [11/Dec/2025 23:08:32] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:08:32,834 127.0.0.1 - - [11/Dec/2025 23:08:32] "GET / HTTP/1.1" 200 -
+2025-12-11 23:08:40,926  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 23:08:40,953  * Restarting with stat
+2025-12-11 23:08:41,174  * Debugger is active!
+2025-12-11 23:08:41,174  * Debugger PIN: 127-914-354
+2025-12-11 23:08:48,759 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:08:48,760 [33mPress CTRL+C to quit[0m
+2025-12-11 23:08:48,760  * Restarting with stat
+2025-12-11 23:08:48,966  * Debugger is active!
+2025-12-11 23:08:48,966  * Debugger PIN: 127-914-354
+2025-12-11 23:08:56,820 127.0.0.1 - - [11/Dec/2025 23:08:56] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:57,097 127.0.0.1 - - [11/Dec/2025 23:08:57] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:08:57,102 127.0.0.1 - - [11/Dec/2025 23:08:57] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:08:57,392 127.0.0.1 - - [11/Dec/2025 23:08:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:08:57,671 127.0.0.1 - - [11/Dec/2025 23:08:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:08:57,673 127.0.0.1 - - [11/Dec/2025 23:08:57] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:08:57,676 127.0.0.1 - - [11/Dec/2025 23:08:57] "GET / HTTP/1.1" 200 -
+2025-12-11 23:09:06,379 127.0.0.1 - - [11/Dec/2025 23:09:06] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:09:06,654 127.0.0.1 - - [11/Dec/2025 23:09:06] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:09:06,657 127.0.0.1 - - [11/Dec/2025 23:09:06] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:09:06,940 127.0.0.1 - - [11/Dec/2025 23:09:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:09:06,944 127.0.0.1 - - [11/Dec/2025 23:09:06] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:09:07,222 127.0.0.1 - - [11/Dec/2025 23:09:07] "POST /login HTTP/1.1" 200 -
+2025-12-11 23:09:07,224 127.0.0.1 - - [11/Dec/2025 23:09:07] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:09:07,226 127.0.0.1 - - [11/Dec/2025 23:09:07] "GET / HTTP/1.1" 200 -
+2025-12-11 23:10:12,711 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:10:12,711 [33mPress CTRL+C to quit[0m
+2025-12-11 23:10:12,712  * Restarting with stat
+2025-12-11 23:10:12,942  * Debugger is active!
+2025-12-11 23:10:12,942  * Debugger PIN: 127-914-354
+2025-12-11 23:10:13,693 127.0.0.1 - - [11/Dec/2025 23:10:13] "GET / HTTP/1.1" 200 -
+2025-12-11 23:10:13,898 127.0.0.1 - - [11/Dec/2025 23:10:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:13,924 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:10:13,924 127.0.0.1 - - [11/Dec/2025 23:10:13] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:10:13,932 127.0.0.1 - - [11/Dec/2025 23:10:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:13,945 127.0.0.1 - - [11/Dec/2025 23:10:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:14,073 127.0.0.1 - - [11/Dec/2025 23:10:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:14,099 127.0.0.1 - - [11/Dec/2025 23:10:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:14,135 127.0.0.1 - - [11/Dec/2025 23:10:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:10:14,176 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:10:14,177 127.0.0.1 - - [11/Dec/2025 23:10:14] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:10:21,587 127.0.0.1 - - [11/Dec/2025 23:10:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:10:21,610 127.0.0.1 - - [11/Dec/2025 23:10:21] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:10:21,634 127.0.0.1 - - [11/Dec/2025 23:10:21] "GET / HTTP/1.1" 200 -
+2025-12-11 23:10:21,687 127.0.0.1 - - [11/Dec/2025 23:10:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:21,690 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:10:21,690 127.0.0.1 - - [11/Dec/2025 23:10:21] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:10:21,693 127.0.0.1 - - [11/Dec/2025 23:10:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:21,695 127.0.0.1 - - [11/Dec/2025 23:10:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:21,724 127.0.0.1 - - [11/Dec/2025 23:10:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:21,750 127.0.0.1 - - [11/Dec/2025 23:10:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:21,807 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:10:21,807 127.0.0.1 - - [11/Dec/2025 23:10:21] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:10:25,988 127.0.0.1 - - [11/Dec/2025 23:10:25] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-11 23:10:26,036 127.0.0.1 - - [11/Dec/2025 23:10:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:26,039 127.0.0.1 - - [11/Dec/2025 23:10:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:26,042 127.0.0.1 - - [11/Dec/2025 23:10:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:26,076 127.0.0.1 - - [11/Dec/2025 23:10:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:26,102 127.0.0.1 - - [11/Dec/2025 23:10:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:27,321 127.0.0.1 - - [11/Dec/2025 23:10:27] "GET /Login.html HTTP/1.1" 200 -
+2025-12-11 23:10:27,365 127.0.0.1 - - [11/Dec/2025 23:10:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:27,368 127.0.0.1 - - [11/Dec/2025 23:10:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:27,371 127.0.0.1 - - [11/Dec/2025 23:10:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:10:27,406 127.0.0.1 - - [11/Dec/2025 23:10:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:10:27,430 127.0.0.1 - - [11/Dec/2025 23:10:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:16:17,868 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:16:17,868 [33mPress CTRL+C to quit[0m
+2025-12-11 23:16:17,869  * Restarting with stat
+2025-12-11 23:16:18,145  * Debugger is active!
+2025-12-11 23:16:18,145  * Debugger PIN: 127-914-354
+2025-12-11 23:16:18,697 127.0.0.1 - - [11/Dec/2025 23:16:18] "GET / HTTP/1.1" 200 -
+2025-12-11 23:16:18,917 127.0.0.1 - - [11/Dec/2025 23:16:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:16:18,944 127.0.0.1 - - [11/Dec/2025 23:16:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:16:18,954 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:16:18,954 127.0.0.1 - - [11/Dec/2025 23:16:18] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:16:18,958 127.0.0.1 - - [11/Dec/2025 23:16:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:16:19,065 127.0.0.1 - - [11/Dec/2025 23:16:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:16:19,093 127.0.0.1 - - [11/Dec/2025 23:16:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:16:19,125 127.0.0.1 - - [11/Dec/2025 23:16:19] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:16:19,167 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:16:19,167 127.0.0.1 - - [11/Dec/2025 23:16:19] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:21:17,596 127.0.0.1 - - [11/Dec/2025 23:21:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:21:17,707 127.0.0.1 - - [11/Dec/2025 23:21:17] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:17,789 127.0.0.1 - - [11/Dec/2025 23:21:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:17,887 127.0.0.1 - - [11/Dec/2025 23:21:17] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:17,975 127.0.0.1 - - [11/Dec/2025 23:21:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,075 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,101 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,130 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,154 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,177 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,201 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,227 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,251 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,275 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,299 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,323 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,346 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,371 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,397 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:18,421 127.0.0.1 - - [11/Dec/2025 23:21:18] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,476 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,498 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,520 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,542 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,567 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,593 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,619 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,641 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,663 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,691 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,717 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,743 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,765 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,797 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,819 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,842 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,868 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,900 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,922 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:19,948 127.0.0.1 - - [11/Dec/2025 23:21:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,021 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,045 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,067 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,091 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,117 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,143 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,167 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,195 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,221 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,245 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,267 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,290 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,317 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,342 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,367 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,391 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,416 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,440 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,465 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:21:25,492 127.0.0.1 - - [11/Dec/2025 23:21:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:15,823 127.0.0.1 - - [11/Dec/2025 23:25:15] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:15,915 127.0.0.1 - - [11/Dec/2025 23:25:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,003 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,081 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,167 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,272 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,311 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,335 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,359 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,381 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,404 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,429 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,453 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,476 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,500 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,525 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,549 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,572 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,595 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,619 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,643 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:25:16,664 127.0.0.1 - - [11/Dec/2025 23:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,610 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,634 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,721 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,743 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,772 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,864 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,888 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,911 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,934 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,960 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:30,984 127.0.0.1 - - [11/Dec/2025 23:26:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,009 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,036 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,059 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,086 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,116 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,142 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,169 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,194 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,220 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,248 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,275 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,300 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,328 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,354 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:31,379 127.0.0.1 - - [11/Dec/2025 23:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,441 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,467 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,491 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,515 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,539 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,562 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,584 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,610 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,634 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,659 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,683 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,705 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,729 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,753 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,776 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,801 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,825 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,849 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,873 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:42,896 127.0.0.1 - - [11/Dec/2025 23:26:42] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:43,959 127.0.0.1 - - [11/Dec/2025 23:26:43] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:43,984 127.0.0.1 - - [11/Dec/2025 23:26:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,008 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,030 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,056 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,084 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,111 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,137 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,162 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,185 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,211 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,238 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,269 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,299 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,325 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,348 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,373 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,398 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,423 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:44,452 127.0.0.1 - - [11/Dec/2025 23:26:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:46,883 127.0.0.1 - - [11/Dec/2025 23:26:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:46,905 127.0.0.1 - - [11/Dec/2025 23:26:46] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:46,929 127.0.0.1 - - [11/Dec/2025 23:26:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:46,953 127.0.0.1 - - [11/Dec/2025 23:26:46] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:46,980 127.0.0.1 - - [11/Dec/2025 23:26:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,004 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,028 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,051 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,078 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,106 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,132 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,157 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,183 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,206 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,230 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,255 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,280 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,305 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,333 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,377 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,402 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,425 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,452 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,483 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,575 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,613 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,636 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,659 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,682 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,707 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,733 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,760 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,783 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,807 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,830 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,852 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,875 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:47,977 127.0.0.1 - - [11/Dec/2025 23:26:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,001 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,023 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,046 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,071 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,160 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,189 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,214 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,238 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,263 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,287 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,310 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,334 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,357 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,381 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,404 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,425 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,450 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,477 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:26:48,501 127.0.0.1 - - [11/Dec/2025 23:26:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,479 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,504 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,526 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,550 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,582 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,613 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,640 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,664 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,687 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,716 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,747 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,770 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,800 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,832 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,861 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,893 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,921 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,945 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,968 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:27:25,993 127.0.0.1 - - [11/Dec/2025 23:27:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:26,773 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:30:26,773 [33mPress CTRL+C to quit[0m
+2025-12-11 23:30:26,774  * Restarting with stat
+2025-12-11 23:30:26,986  * Debugger is active!
+2025-12-11 23:30:26,987  * Debugger PIN: 127-914-354
+2025-12-11 23:30:47,877 127.0.0.1 - - [11/Dec/2025 23:30:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:47,966 127.0.0.1 - - [11/Dec/2025 23:30:47] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,063 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,161 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,247 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,343 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,371 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,396 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,422 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,448 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,481 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,504 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,527 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,553 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,577 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,600 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,628 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,656 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:48,680 127.0.0.1 - - [11/Dec/2025 23:30:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,757 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,781 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,804 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,828 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,855 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,877 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,900 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,923 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,946 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,974 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:49,999 127.0.0.1 - - [11/Dec/2025 23:30:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,022 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,047 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,073 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,100 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,125 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,153 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,179 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,204 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:30:50,228 127.0.0.1 - - [11/Dec/2025 23:30:50] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:10,882 127.0.0.1 - - [11/Dec/2025 23:31:10] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:10,906 127.0.0.1 - - [11/Dec/2025 23:31:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:10,929 127.0.0.1 - - [11/Dec/2025 23:31:10] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:10,951 127.0.0.1 - - [11/Dec/2025 23:31:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:10,975 127.0.0.1 - - [11/Dec/2025 23:31:10] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,000 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,025 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,050 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,073 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,100 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,127 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,149 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,173 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,198 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,223 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,247 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,270 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,292 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,317 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-11 23:31:11,348 127.0.0.1 - - [11/Dec/2025 23:31:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:34:18,534  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 23:34:18,563  * Restarting with stat
+2025-12-11 23:34:18,790  * Debugger is active!
+2025-12-11 23:34:18,790  * Debugger PIN: 127-914-354
+2025-12-11 23:34:22,350 127.0.0.1 - - [11/Dec/2025 23:34:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:34:22,454 127.0.0.1 - - [11/Dec/2025 23:34:22] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:34:22,653 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:22,653 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:22,654 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:22,775 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:22,807 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:22,835 127.0.0.1 - - [11/Dec/2025 23:34:22] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:34:29,751 127.0.0.1 - - [11/Dec/2025 23:34:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:34:29,777 127.0.0.1 - - [11/Dec/2025 23:34:29] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:34:29,838 127.0.0.1 - - [11/Dec/2025 23:34:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:29,841 127.0.0.1 - - [11/Dec/2025 23:34:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:29,843 127.0.0.1 - - [11/Dec/2025 23:34:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:29,883 127.0.0.1 - - [11/Dec/2025 23:34:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:29,909 127.0.0.1 - - [11/Dec/2025 23:34:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:53,741 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.102:5000
+2025-12-11 23:34:53,741 [33mPress CTRL+C to quit[0m
+2025-12-11 23:34:53,741  * Restarting with stat
+2025-12-11 23:34:53,988  * Debugger is active!
+2025-12-11 23:34:53,989  * Debugger PIN: 127-914-354
+2025-12-11 23:34:55,991 127.0.0.1 - - [11/Dec/2025 23:34:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-11 23:34:56,024 127.0.0.1 - - [11/Dec/2025 23:34:56] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:34:56,088 127.0.0.1 - - [11/Dec/2025 23:34:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:56,091 127.0.0.1 - - [11/Dec/2025 23:34:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:34:56,094 127.0.0.1 - - [11/Dec/2025 23:34:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:56,131 127.0.0.1 - - [11/Dec/2025 23:34:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:34:56,155 127.0.0.1 - - [11/Dec/2025 23:34:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:40,647  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-11 23:36:40,679  * Restarting with stat
+2025-12-11 23:36:40,920  * Debugger is active!
+2025-12-11 23:36:40,921  * Debugger PIN: 127-914-354
+2025-12-11 23:36:42,928 127.0.0.1 - - [11/Dec/2025 23:36:42] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:36:43,005 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,105 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,112 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,149 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,262 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,292 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,750 127.0.0.1 - - [11/Dec/2025 23:36:43] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:36:43,807 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,809 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,811 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,847 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:43,877 127.0.0.1 - - [11/Dec/2025 23:36:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-11 23:36:44,127 127.0.0.1 - - [11/Dec/2025 23:36:44] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-11 23:37:13,185 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET / HTTP/1.1" 200 -
+2025-12-11 23:37:13,376 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-11 23:37:13,412 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-11 23:37:13,412 127.0.0.1 - - [11/Dec/2025 23:37:13] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:37:13,417 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-11 23:37:13,419 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-11 23:37:13,583 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-11 23:37:13,618 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-11 23:37:13,656 127.0.0.1 - - [11/Dec/2025 23:37:13] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-11 23:37:13,673 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-11 23:37:13,673 127.0.0.1 - - [11/Dec/2025 23:37:13] "POST /csp_report HTTP/1.1" 200 -
+2025-12-11 23:37:23,982 127.0.0.1 - - [11/Dec/2025 23:37:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-11 23:37:24,009 127.0.0.1 - - [11/Dec/2025 23:37:24] "GET /index.html HTTP/1.1" 200 -
+2025-12-11 23:37:24,061 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-11 23:37:24,063 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-11 23:37:24,066 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-11 23:37:24,099 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-11 23:37:24,125 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
