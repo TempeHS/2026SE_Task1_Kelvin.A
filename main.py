@@ -99,8 +99,9 @@ def index():
                 pass
         return redirect("/index.html", 302)
 
-    logs = dbHandler.get_dev_logs()
-    return render_template("index.html", logs=logs)
+    sort_by = request.args.get("sort", "newest")
+    logs = dbHandler.get_dev_logs(sort_by)
+    return render_template("index.html", logs=logs, current_sort=sort_by)
 
 
 # example CSRF protected form

@@ -58,12 +58,13 @@
       data-bs-toggle="dropdown"
       aria-expanded="false"
     >
-      Sort by:
+      Sort by: {% if current_sort == 'oldest' %}Oldest{% elif current_sort ==
+      'developer' %}Developer{% else %}Newest{% endif %}
     </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Oldest</a></li>
-      <li><a class="dropdown-item" href="#">Newest</a></li>
-      <li><a class="dropdown-item" href="#">Developer</a></li>
+      <li><a class="dropdown-item" href="?sort=oldest">Oldest</a></li>
+      <li><a class="dropdown-item" href="?sort=newest">Newest</a></li>
+      <li><a class="dropdown-item" href="?sort=developer">Developer</a></li>
     </ul>
   </div>
   <!-- Forms -->

@@ -65,12 +65,20 @@ def add_dev_log(message, developer, time_worked, repo_link):
     return True
 
 
-def get_dev_logs():
-    """Retrieve all developer logs ordered by most recent first"""
+def get_dev_logs(sort_by="newest"):
+    """Retrieve all developer logs, sorting options"""
     con = sql.connect(DB)
     cur = con.cursor()
+
+    if sort_by == "oldest":
+        order_clause = "ORDER BY timestamp ASC"
+    elif sort_by == "developer":
+        order_clause = "ORDER BY developer ASC, timestamp DESC"
+    else:
+        order_clause = "ORDER BY timestamp DESC"
+
     cur.execute(
-        "SELECT id, message, developer, time_worked, repo_link, timestamp FROM dev_logs ORDER BY timestamp DESC"
+        f"SELECT id, message, developer, time_worked, repo_link, timestamp FROM dev_logs {order_clause}"
     )
     logs = cur.fetchall()
     con.close()
