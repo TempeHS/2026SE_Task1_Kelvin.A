@@ -30,6 +30,7 @@ app.permanent_session_lifetime = timedelta(days=1)
 csrf = CSRFProtect(app)
 try:
     dbHandler.getUsers()
+    dbHandler.init_2fa_column()
 except Exception as e:
     app.logger.error(f"Failed to initialize database: {e}")
 
@@ -67,7 +68,7 @@ def root():
 def open():
     if "email" in session:
         return redirect("/index.html", 302)
-    return render_template("/Login.html")
+    return redirect("/Login.html", 302)
 
 
 @app.route("/privacy.html", methods=["GET"])
@@ -106,8 +107,8 @@ def login():
 
     if dbHandler.authenticate(email, password):
         session.permanent = True
-        session["email"] = email
-        return redirect("/index.html", 302)
+        session["email_pending_2fa"] = email
+        return redirect("/verify_2fa", 302)
     else:
         return render_template(
             "Login.html", message="invalid email or password", message_type="danger"
@@ -137,6 +138,77 @@ def signup():
             return render_template("Signup.html", message=msg)
     else:
         return render_template("Signup.html")
+
+
+# 2FA verification route
+@app.route("/verify_2fa", methods=["GET", "POST"])
+def verify_2fa():
+    if "email_pending_2fa" not in session:
+        return redirect("/Login.html", 302)
+
+    email = session["email_pending_2fa"]
+
+    if request.method == "POST":
+        code = request.form.get("code")
+
+        if not code:
+            return render_template(
+                "2fa.html", message="Please enter the verification code"
+            )
+
+        if dbHandler.verify_2fa_code(email, code):
+            # 2FA successful - complete the login
+            session["email"] = email
+            session.pop("email_pending_2fa", None)
+            return redirect("/index.html", 302)
+        else:
+            return render_template(
+                "2fa.html", message="Invalid verification code", message_type="danger"
+            )
+
+    # Generate QR code image and secret for first-time setup
+    qr_code = dbHandler.get_2fa_qr_code_base64(email)
+    secret_key = dbHandler.get_2fa_key(email)
+    return render_template(
+        "2fa.html", qr_code=qr_code, secret_key=secret_key, email=email
+    )
+
+
+# Skip 2FA route
+@app.route("/skip_2fa", methods=["GET"])
+def skip_2fa():
+    if "email_pending_2fa" not in session:
+        return redirect("/Login.html", 302)
+
+    email = session["email_pending_2fa"]
+    # Complete login without 2FA
+    session["email"] = email
+    session.pop("email_pending_2fa", None)
+    app.logger.warning(f"User {email} skipped 2FA verification")
+    return redirect("/index.html", 302)
+
+
+# 2FA setup route
+@app.route("/setup_2fa", methods=["GET"])
+def setup_2fa():
+    if "email" not in session:
+        return redirect("/Login.html", 302)
+
+    email = session["email"]
+    qr_code = dbHandler.get_2fa_qr_code_base64(email)
+    secret_key = dbHandler.get_2fa_key(email)
+    return render_template(
+        "2fa_setup.html", qr_code=qr_code, secret_key=secret_key, email=email
+    )
+
+
+# Logout route
+@app.route("/logout", methods=["GET"])
+def logout():
+    email = session.get("email", "unknown")
+    session.clear()
+    app.logger.info(f"User {email} logged out")
+    return redirect("/Login.html", 302)
 
 
 # Endpoint for logging CSP violations

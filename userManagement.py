@@ -1,5 +1,9 @@
 import sqlite3 as sql
 import bcrypt
+import pyotp
+import qrcode
+import io
+import base64
 
 DB = "databaseFiles/database.db"
 
@@ -10,6 +14,19 @@ def getUsers():
     cur.execute("SELECT * FROM id7_tusers")
     con.commit()
     con.close()
+
+
+def init_2fa_column():
+    """Add twofa_key column if it doesn't exist"""
+    try:
+        con = sql.connect(DB)
+        cur = con.cursor()
+        cur.execute("ALTER TABLE id7_tusers ADD COLUMN twofa_key TEXT DEFAULT NULL")
+        con.commit()
+        con.close()
+    except sql.OperationalError:
+        # Column already exists
+        pass
 
 
 def NewUser(email, password):
@@ -62,3 +79,83 @@ def authenticate(email, password):
             return password == stored
     except Exception:
         return False
+
+
+def get_2fa_key(email):
+    """Get or create 2FA key for a user"""
+    try:
+        con = sql.connect(DB)
+        cur = con.cursor()
+        cur.execute("SELECT twofa_key FROM id7_tusers WHERE username =?", (email,))
+        row = cur.fetchone()
+
+        if row and row[0]:
+            con.close()
+            return row[0]
+        else:
+            # Generate new key
+            new_key = pyotp.random_base32()
+            cur.execute(
+                "UPDATE id7_tusers SET twofa_key =? WHERE username =?", (new_key, email)
+            )
+            con.commit()
+            con.close()
+            return new_key
+    except Exception as e:
+        try:
+            con.close()
+        except Exception:
+            pass
+        return None
+
+
+def verify_2fa_code(email, code):
+    """Verify 2FA code for a user"""
+    try:
+        key = get_2fa_key(email)
+        if not key:
+            return False
+
+        totp = pyotp.TOTP(key)
+        return totp.verify(code, valid_window=1)
+    except Exception:
+        return False
+
+
+def get_2fa_qr_uri(email):
+    """Get QR code URI for 2FA setup"""
+    try:
+        key = get_2fa_key(email)
+        if not key:
+            return None
+
+        totp = pyotp.TOTP(key)
+        return totp.provisioning_uri(name=email, issuer_name="Secure Flask PWA")
+    except Exception:
+        return None
+
+
+def get_2fa_qr_code_base64(email):
+    """Generate QR code as base64 data URI"""
+    try:
+        uri = get_2fa_qr_uri(email)
+        if not uri:
+            return None
+
+        # Generate QR code
+        qr = qrcode.QRCode(version=1, box_size=10, border=5)
+        qr.add_data(uri)
+        qr.make(fit=True)
+
+        # Create image
+        img = qr.make_image(fill_color="black", back_color="white")
+
+        # Convert to base64
+        buffer = io.BytesIO()
+        img.save(buffer, format="PNG")
+        buffer.seek(0)
+        img_base64 = base64.b64encode(buffer.getvalue()).decode()
+
+        return f"data:image/png;base64,{img_base64}"
+    except Exception:
+        return None

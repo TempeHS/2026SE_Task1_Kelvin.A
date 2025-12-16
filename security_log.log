@@ -3774,3 +3774,515 @@
 2025-12-11 23:37:24,066 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
 2025-12-11 23:37:24,099 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-12-11 23:37:24,125 127.0.0.1 - - [11/Dec/2025 23:37:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:09:11,532 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:09:11,532 [33mPress CTRL+C to quit[0m
+2025-12-16 00:09:11,533  * Restarting with stat
+2025-12-16 00:09:11,751  * Debugger is active!
+2025-12-16 00:09:11,751  * Debugger PIN: 670-134-900
+2025-12-16 00:09:21,915 127.0.0.1 - - [16/Dec/2025 00:09:21] "GET / HTTP/1.1" 200 -
+2025-12-16 00:09:22,221 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 00:09:22,222 127.0.0.1 - - [16/Dec/2025 00:09:22] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:09:22,251 127.0.0.1 - - [16/Dec/2025 00:09:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:09:22,256 127.0.0.1 - - [16/Dec/2025 00:09:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:09:22,258 127.0.0.1 - - [16/Dec/2025 00:09:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:09:22,505 127.0.0.1 - - [16/Dec/2025 00:09:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:09:22,599 127.0.0.1 - - [16/Dec/2025 00:09:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-16 00:09:23,021 127.0.0.1 - - [16/Dec/2025 00:09:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:09:23,375 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 00:09:23,375 127.0.0.1 - - [16/Dec/2025 00:09:23] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:11:43,132 127.0.0.1 - - [16/Dec/2025 00:11:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:11:44,815 127.0.0.1 - - [16/Dec/2025 00:11:44] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:11:46,695 127.0.0.1 - - [16/Dec/2025 00:11:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:11:46,711 127.0.0.1 - - [16/Dec/2025 00:11:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:11:46,909 127.0.0.1 - - [16/Dec/2025 00:11:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:11:47,316 127.0.0.1 - - [16/Dec/2025 00:11:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:11:48,985 127.0.0.1 - - [16/Dec/2025 00:11:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:16:48,934  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:16:48,965  * Restarting with stat
+2025-12-16 00:16:49,197  * Debugger is active!
+2025-12-16 00:16:49,198  * Debugger PIN: 670-134-900
+2025-12-16 00:17:05,505  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:05,536  * Restarting with stat
+2025-12-16 00:17:05,747  * Debugger is active!
+2025-12-16 00:17:05,747  * Debugger PIN: 670-134-900
+2025-12-16 00:17:08,834  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:08,864  * Restarting with stat
+2025-12-16 00:17:09,076  * Debugger is active!
+2025-12-16 00:17:09,077  * Debugger PIN: 670-134-900
+2025-12-16 00:17:13,172  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:13,198  * Restarting with stat
+2025-12-16 00:17:13,407  * Debugger is active!
+2025-12-16 00:17:13,408  * Debugger PIN: 670-134-900
+2025-12-16 00:17:16,497  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:16,527  * Restarting with stat
+2025-12-16 00:17:16,748  * Debugger is active!
+2025-12-16 00:17:16,748  * Debugger PIN: 670-134-900
+2025-12-16 00:17:19,828  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:19,855  * Restarting with stat
+2025-12-16 00:17:20,069  * Debugger is active!
+2025-12-16 00:17:20,070  * Debugger PIN: 670-134-900
+2025-12-16 00:17:24,176  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:24,208  * Restarting with stat
+2025-12-16 00:17:24,453  * Debugger is active!
+2025-12-16 00:17:24,453  * Debugger PIN: 670-134-900
+2025-12-16 00:17:29,585  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:29,615  * Restarting with stat
+2025-12-16 00:17:29,845  * Debugger is active!
+2025-12-16 00:17:29,845  * Debugger PIN: 670-134-900
+2025-12-16 00:17:33,941  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:33,970  * Restarting with stat
+2025-12-16 00:17:34,181  * Debugger is active!
+2025-12-16 00:17:34,181  * Debugger PIN: 670-134-900
+2025-12-16 00:17:38,275  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:38,303  * Restarting with stat
+2025-12-16 00:17:38,531  * Debugger is active!
+2025-12-16 00:17:38,532  * Debugger PIN: 670-134-900
+2025-12-16 00:17:41,620  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:41,649  * Restarting with stat
+2025-12-16 00:17:41,863  * Debugger is active!
+2025-12-16 00:17:41,863  * Debugger PIN: 670-134-900
+2025-12-16 00:17:49,008  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:49,037  * Restarting with stat
+2025-12-16 00:17:49,246  * Debugger is active!
+2025-12-16 00:17:49,246  * Debugger PIN: 670-134-900
+2025-12-16 00:17:54,362  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:17:54,389  * Restarting with stat
+2025-12-16 00:17:54,598  * Debugger is active!
+2025-12-16 00:17:54,598  * Debugger PIN: 670-134-900
+2025-12-16 00:20:28,159  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 00:20:28,189  * Restarting with stat
+2025-12-16 00:20:28,426  * Debugger is active!
+2025-12-16 00:20:28,426  * Debugger PIN: 670-134-900
+2025-12-16 00:21:06,084  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 00:21:06,114  * Restarting with stat
+2025-12-16 00:21:06,329  * Debugger is active!
+2025-12-16 00:21:06,330  * Debugger PIN: 670-134-900
+2025-12-16 00:21:13,485  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 00:21:13,518  * Restarting with stat
+2025-12-16 00:21:13,743  * Debugger is active!
+2025-12-16 00:21:13,744  * Debugger PIN: 670-134-900
+2025-12-16 00:22:18,832  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:22:18,860  * Restarting with stat
+2025-12-16 00:22:19,072  * Debugger is active!
+2025-12-16 00:22:19,073  * Debugger PIN: 670-134-900
+2025-12-16 00:22:37,406  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:22:37,438  * Restarting with stat
+2025-12-16 00:22:37,669  * Debugger is active!
+2025-12-16 00:22:37,669  * Debugger PIN: 670-134-900
+2025-12-16 00:23:10,217  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:23:10,246  * Restarting with stat
+2025-12-16 00:23:10,478  * Debugger is active!
+2025-12-16 00:23:10,478  * Debugger PIN: 670-134-900
+2025-12-16 00:23:16,613  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:23:16,642  * Restarting with stat
+2025-12-16 00:23:16,862  * Debugger is active!
+2025-12-16 00:23:16,863  * Debugger PIN: 670-134-900
+2025-12-16 00:23:25,030  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:23:25,061  * Restarting with stat
+2025-12-16 00:23:25,288  * Debugger is active!
+2025-12-16 00:23:25,288  * Debugger PIN: 670-134-900
+2025-12-16 00:23:31,438  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:23:31,464  * Restarting with stat
+2025-12-16 00:23:31,687  * Debugger is active!
+2025-12-16 00:23:31,687  * Debugger PIN: 670-134-900
+2025-12-16 00:23:36,809  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:23:36,850  * Restarting with stat
+2025-12-16 00:23:37,077  * Debugger is active!
+2025-12-16 00:23:37,077  * Debugger PIN: 670-134-900
+2025-12-16 00:24:08,642  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:24:08,669  * Restarting with stat
+2025-12-16 00:24:08,886  * Debugger is active!
+2025-12-16 00:24:08,886  * Debugger PIN: 670-134-900
+2025-12-16 00:24:12,980  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:24:13,007  * Restarting with stat
+2025-12-16 00:24:13,218  * Debugger is active!
+2025-12-16 00:24:13,218  * Debugger PIN: 670-134-900
+2025-12-16 00:24:37,912 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:24:37,912 [33mPress CTRL+C to quit[0m
+2025-12-16 00:24:37,913  * Restarting with stat
+2025-12-16 00:24:38,144  * Debugger is active!
+2025-12-16 00:24:38,144  * Debugger PIN: 670-134-900
+2025-12-16 00:24:41,966 127.0.0.1 - - [16/Dec/2025 00:24:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:24:43,573 127.0.0.1 - - [16/Dec/2025 00:24:43] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:24:45,205 127.0.0.1 - - [16/Dec/2025 00:24:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:24:45,252 127.0.0.1 - - [16/Dec/2025 00:24:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:24:45,505 127.0.0.1 - - [16/Dec/2025 00:24:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:24:47,153 127.0.0.1 - - [16/Dec/2025 00:24:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:24:48,794 127.0.0.1 - - [16/Dec/2025 00:24:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:25:02,623  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/test_2fa.py', reloading
+2025-12-16 00:25:02,671  * Restarting with stat
+2025-12-16 00:25:03,018  * Debugger is active!
+2025-12-16 00:25:03,019  * Debugger PIN: 670-134-900
+2025-12-16 00:25:53,327 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:25:53,327 [33mPress CTRL+C to quit[0m
+2025-12-16 00:25:53,328  * Restarting with stat
+2025-12-16 00:25:53,569  * Debugger is active!
+2025-12-16 00:25:53,569  * Debugger PIN: 670-134-900
+2025-12-16 00:25:56,212 127.0.0.1 - - [16/Dec/2025 00:25:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:25:57,997 127.0.0.1 - - [16/Dec/2025 00:25:57] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:25:59,549 127.0.0.1 - - [16/Dec/2025 00:25:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:25:59,716 127.0.0.1 - - [16/Dec/2025 00:25:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:25:59,720 127.0.0.1 - - [16/Dec/2025 00:25:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:26:01,498 127.0.0.1 - - [16/Dec/2025 00:26:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:26:03,200 127.0.0.1 - - [16/Dec/2025 00:26:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:26:41,715 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:26:41,715 [33mPress CTRL+C to quit[0m
+2025-12-16 00:26:41,715  * Restarting with stat
+2025-12-16 00:26:41,983  * Debugger is active!
+2025-12-16 00:26:41,984  * Debugger PIN: 670-134-900
+2025-12-16 00:26:43,545 127.0.0.1 - - [16/Dec/2025 00:26:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:26:43,880 127.0.0.1 - - [16/Dec/2025 00:26:43] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:26:45,503 127.0.0.1 - - [16/Dec/2025 00:26:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:26:45,575 127.0.0.1 - - [16/Dec/2025 00:26:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:26:45,708 127.0.0.1 - - [16/Dec/2025 00:26:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:26:46,032 127.0.0.1 - - [16/Dec/2025 00:26:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:26:46,365 127.0.0.1 - - [16/Dec/2025 00:26:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:27:57,262  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:27:57,298  * Restarting with stat
+2025-12-16 00:27:57,549  * Debugger is active!
+2025-12-16 00:27:57,549  * Debugger PIN: 670-134-900
+2025-12-16 00:28:36,235  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:28:36,263  * Restarting with stat
+2025-12-16 00:28:36,479  * Debugger is active!
+2025-12-16 00:28:36,479  * Debugger PIN: 670-134-900
+2025-12-16 00:28:42,647  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:28:42,676  * Restarting with stat
+2025-12-16 00:28:42,894  * Debugger is active!
+2025-12-16 00:28:42,895  * Debugger PIN: 670-134-900
+2025-12-16 00:28:46,147 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:28:46,147 [33mPress CTRL+C to quit[0m
+2025-12-16 00:28:46,147  * Restarting with stat
+2025-12-16 00:28:46,415  * Debugger is active!
+2025-12-16 00:28:46,415  * Debugger PIN: 670-134-900
+2025-12-16 00:28:55,595 127.0.0.1 - - [16/Dec/2025 00:28:55] "GET / HTTP/1.1" 200 -
+2025-12-16 00:28:57,225 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 00:28:57,226 127.0.0.1 - - [16/Dec/2025 00:28:57] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:28:57,286 127.0.0.1 - - [16/Dec/2025 00:28:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-16 00:28:57,463 127.0.0.1 - - [16/Dec/2025 00:28:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 00:28:57,466 127.0.0.1 - - [16/Dec/2025 00:28:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-16 00:28:59,740 127.0.0.1 - - [16/Dec/2025 00:28:59] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-16 00:29:01,670 127.0.0.1 - - [16/Dec/2025 00:29:01] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-16 00:29:02,474 127.0.0.1 - - [16/Dec/2025 00:29:02] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-16 00:29:03,391 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 00:29:03,392 127.0.0.1 - - [16/Dec/2025 00:29:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:29:03,761 127.0.0.1 - - [16/Dec/2025 00:29:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:29:04,160 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,171 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,190 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,192 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,202 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,206 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,294 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-16 00:29:04,297 127.0.0.1 - - [16/Dec/2025 00:29:04] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-12-16 00:29:26,433 127.0.0.1 - - [16/Dec/2025 00:29:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:29:26,849 127.0.0.1 - - [16/Dec/2025 00:29:26] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:29:27,307 127.0.0.1 - - [16/Dec/2025 00:29:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:29:27,311 127.0.0.1 - - [16/Dec/2025 00:29:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:29:27,314 127.0.0.1 - - [16/Dec/2025 00:29:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:29:27,845 127.0.0.1 - - [16/Dec/2025 00:29:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:29:28,337 127.0.0.1 - - [16/Dec/2025 00:29:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:30:44,428  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:30:44,466  * Restarting with stat
+2025-12-16 00:30:44,823  * Debugger is active!
+2025-12-16 00:30:44,824  * Debugger PIN: 670-134-900
+2025-12-16 00:30:46,896  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:30:46,932  * Restarting with stat
+2025-12-16 00:30:47,171  * Debugger is active!
+2025-12-16 00:30:47,172  * Debugger PIN: 670-134-900
+2025-12-16 00:30:52,295  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:30:52,329  * Restarting with stat
+2025-12-16 00:30:52,606  * Debugger is active!
+2025-12-16 00:30:52,606  * Debugger PIN: 670-134-900
+2025-12-16 00:31:00,791  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 00:31:00,845  * Restarting with stat
+2025-12-16 00:31:01,190  * Debugger is active!
+2025-12-16 00:31:01,191  * Debugger PIN: 670-134-900
+2025-12-16 00:31:09,370  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:31:09,411  * Restarting with stat
+2025-12-16 00:31:09,683  * Debugger is active!
+2025-12-16 00:31:09,684  * Debugger PIN: 670-134-900
+2025-12-16 00:31:12,785  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:31:12,820  * Restarting with stat
+2025-12-16 00:31:13,104  * Debugger is active!
+2025-12-16 00:31:13,104  * Debugger PIN: 670-134-900
+2025-12-16 00:31:51,838 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:31:51,838 [33mPress CTRL+C to quit[0m
+2025-12-16 00:31:51,839  * Restarting with stat
+2025-12-16 00:31:52,125  * Debugger is active!
+2025-12-16 00:31:52,125  * Debugger PIN: 670-134-900
+2025-12-16 00:31:55,504 127.0.0.1 - - [16/Dec/2025 00:31:55] "GET / HTTP/1.1" 200 -
+2025-12-16 00:31:57,093 127.0.0.1 - - [16/Dec/2025 00:31:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:31:57,303 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 00:31:57,304 127.0.0.1 - - [16/Dec/2025 00:31:57] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:31:57,310 127.0.0.1 - - [16/Dec/2025 00:31:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:31:57,329 127.0.0.1 - - [16/Dec/2025 00:31:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:31:59,045 127.0.0.1 - - [16/Dec/2025 00:31:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:32:00,598 127.0.0.1 - - [16/Dec/2025 00:32:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:32:05,798 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 00:32:05,799 127.0.0.1 - - [16/Dec/2025 00:32:05] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:33:09,624  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:33:09,828  * Restarting with stat
+2025-12-16 00:33:10,183  * Debugger is active!
+2025-12-16 00:33:10,183  * Debugger PIN: 670-134-900
+2025-12-16 00:33:17,349  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:33:17,387  * Restarting with stat
+2025-12-16 00:33:17,640  * Debugger is active!
+2025-12-16 00:33:17,641  * Debugger PIN: 670-134-900
+2025-12-16 00:33:20,739  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:33:20,775  * Restarting with stat
+2025-12-16 00:33:21,037  * Debugger is active!
+2025-12-16 00:33:21,038  * Debugger PIN: 670-134-900
+2025-12-16 00:33:31,253  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:33:31,290  * Restarting with stat
+2025-12-16 00:33:31,555  * Debugger is active!
+2025-12-16 00:33:31,556  * Debugger PIN: 670-134-900
+2025-12-16 00:33:38,028 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:33:38,028 [33mPress CTRL+C to quit[0m
+2025-12-16 00:33:38,029  * Restarting with stat
+2025-12-16 00:33:38,311  * Debugger is active!
+2025-12-16 00:33:38,311  * Debugger PIN: 670-134-900
+2025-12-16 00:33:56,315 127.0.0.1 - - [16/Dec/2025 00:33:56] "GET / HTTP/1.1" 200 -
+2025-12-16 00:33:58,649 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 00:33:58,650 127.0.0.1 - - [16/Dec/2025 00:33:58] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:34:06,427 127.0.0.1 - - [16/Dec/2025 00:34:06] "GET / HTTP/1.1" 200 -
+2025-12-16 00:34:08,110 127.0.0.1 - - [16/Dec/2025 00:34:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 00:34:08,119 127.0.0.1 - - [16/Dec/2025 00:34:08] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-16 00:34:08,127 127.0.0.1 - - [16/Dec/2025 00:34:08] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-16 00:34:08,267 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-16 00:34:08,267 127.0.0.1 - - [16/Dec/2025 00:34:08] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:34:09,053 127.0.0.1 - - [16/Dec/2025 00:34:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:10,599 127.0.0.1 - - [16/Dec/2025 00:34:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:14,949 127.0.0.1 - - [16/Dec/2025 00:34:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:34:16,963 {"csp-report":{"document-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/","referrer":"https://orange-parakeet-7qqjp95vrg7h67r.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://orange-parakeet-7qqjp95vrg7h67r-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-16 00:34:16,963 127.0.0.1 - - [16/Dec/2025 00:34:16] "POST /csp_report HTTP/1.1" 200 -
+2025-12-16 00:34:48,139 127.0.0.1 - - [16/Dec/2025 00:34:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:34:48,503 127.0.0.1 - - [16/Dec/2025 00:34:48] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:34:48,907 127.0.0.1 - - [16/Dec/2025 00:34:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:34:48,920 127.0.0.1 - - [16/Dec/2025 00:34:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:34:50,332 127.0.0.1 - - [16/Dec/2025 00:34:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:50,670 127.0.0.1 - - [16/Dec/2025 00:34:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:50,996 127.0.0.1 - - [16/Dec/2025 00:34:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:56,609 User Hi@gmail skipped 2FA verification
+2025-12-16 00:34:56,609 127.0.0.1 - - [16/Dec/2025 00:34:56] "[32mGET /skip_2fa HTTP/1.1[0m" 302 -
+2025-12-16 00:34:56,939 127.0.0.1 - - [16/Dec/2025 00:34:56] "GET /privacy.html HTTP/1.1" 200 -
+2025-12-16 00:34:57,309 127.0.0.1 - - [16/Dec/2025 00:34:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:34:57,311 127.0.0.1 - - [16/Dec/2025 00:34:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:34:57,327 127.0.0.1 - - [16/Dec/2025 00:34:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:57,689 127.0.0.1 - - [16/Dec/2025 00:34:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:34:58,088 127.0.0.1 - - [16/Dec/2025 00:34:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:35:26,247  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:35:26,281  * Restarting with stat
+2025-12-16 00:35:26,523  * Debugger is active!
+2025-12-16 00:35:26,524  * Debugger PIN: 670-134-900
+2025-12-16 00:35:39,793  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:35:39,824  * Restarting with stat
+2025-12-16 00:35:40,072  * Debugger is active!
+2025-12-16 00:35:40,073  * Debugger PIN: 670-134-900
+2025-12-16 00:35:44,267 127.0.0.1 - - [16/Dec/2025 00:35:44] "[33mGET /privacy.html HTTP/1.1[0m" 404 -
+2025-12-16 00:35:44,795 127.0.0.1 - - [16/Dec/2025 00:35:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 00:35:47,611 127.0.0.1 - - [16/Dec/2025 00:35:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:35:47,947 127.0.0.1 - - [16/Dec/2025 00:35:47] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:35:48,389 127.0.0.1 - - [16/Dec/2025 00:35:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:35:48,393 127.0.0.1 - - [16/Dec/2025 00:35:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:35:48,394 127.0.0.1 - - [16/Dec/2025 00:35:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:35:48,754 127.0.0.1 - - [16/Dec/2025 00:35:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:35:49,086 127.0.0.1 - - [16/Dec/2025 00:35:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:35:51,038 127.0.0.1 - - [16/Dec/2025 00:35:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:36:08,643  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:36:08,686  * Restarting with stat
+2025-12-16 00:36:08,943  * Debugger is active!
+2025-12-16 00:36:08,943  * Debugger PIN: 670-134-900
+2025-12-16 00:36:32,403  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:36:32,442  * Restarting with stat
+2025-12-16 00:36:32,719  * Debugger is active!
+2025-12-16 00:36:32,720  * Debugger PIN: 670-134-900
+2025-12-16 00:37:05,320  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:37:05,370  * Restarting with stat
+2025-12-16 00:37:05,635  * Debugger is active!
+2025-12-16 00:37:05,636  * Debugger PIN: 670-134-900
+2025-12-16 00:37:08,737  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:37:08,768  * Restarting with stat
+2025-12-16 00:37:09,013  * Debugger is active!
+2025-12-16 00:37:09,014  * Debugger PIN: 670-134-900
+2025-12-16 00:37:28,683 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:37:28,683 [33mPress CTRL+C to quit[0m
+2025-12-16 00:37:28,683  * Restarting with stat
+2025-12-16 00:37:28,976  * Debugger is active!
+2025-12-16 00:37:28,977  * Debugger PIN: 670-134-900
+2025-12-16 00:37:32,538 127.0.0.1 - - [16/Dec/2025 00:37:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:37:34,385 127.0.0.1 - - [16/Dec/2025 00:37:34] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:37:35,932 127.0.0.1 - - [16/Dec/2025 00:37:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:37:36,045 127.0.0.1 - - [16/Dec/2025 00:37:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:37:36,141 127.0.0.1 - - [16/Dec/2025 00:37:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:37:37,667 127.0.0.1 - - [16/Dec/2025 00:37:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:37:39,457 127.0.0.1 - - [16/Dec/2025 00:37:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:37:49,983 127.0.0.1 - - [16/Dec/2025 00:37:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:37:51,507 127.0.0.1 - - [16/Dec/2025 00:37:51] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:37:51,951 127.0.0.1 - - [16/Dec/2025 00:37:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:37:52,013 127.0.0.1 - - [16/Dec/2025 00:37:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:37:53,083 127.0.0.1 - - [16/Dec/2025 00:37:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:37:54,705 127.0.0.1 - - [16/Dec/2025 00:37:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:37:56,118 127.0.0.1 - - [16/Dec/2025 00:37:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:17,880  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:38:17,917  * Restarting with stat
+2025-12-16 00:38:18,165  * Debugger is active!
+2025-12-16 00:38:18,166  * Debugger PIN: 670-134-900
+2025-12-16 00:38:24,307  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:38:24,344  * Restarting with stat
+2025-12-16 00:38:24,594  * Debugger is active!
+2025-12-16 00:38:24,595  * Debugger PIN: 670-134-900
+2025-12-16 00:38:27,681  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:38:27,720  * Restarting with stat
+2025-12-16 00:38:27,959  * Debugger is active!
+2025-12-16 00:38:27,960  * Debugger PIN: 670-134-900
+2025-12-16 00:38:33,105 127.0.0.1 - - [16/Dec/2025 00:38:33] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:38:33,501 127.0.0.1 - - [16/Dec/2025 00:38:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:33,503 127.0.0.1 - - [16/Dec/2025 00:38:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:38:33,503 127.0.0.1 - - [16/Dec/2025 00:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:38:33,853 127.0.0.1 - - [16/Dec/2025 00:38:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:34,178 127.0.0.1 - - [16/Dec/2025 00:38:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:35,681 127.0.0.1 - - [16/Dec/2025 00:38:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:38:39,601 127.0.0.1 - - [16/Dec/2025 00:38:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:38:39,949 127.0.0.1 - - [16/Dec/2025 00:38:39] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:38:40,364 127.0.0.1 - - [16/Dec/2025 00:38:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:38:40,368 127.0.0.1 - - [16/Dec/2025 00:38:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:38:40,372 127.0.0.1 - - [16/Dec/2025 00:38:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:40,728 127.0.0.1 - - [16/Dec/2025 00:38:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:42,193 127.0.0.1 - - [16/Dec/2025 00:38:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:38:47,001 127.0.0.1 - - [16/Dec/2025 00:38:47] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-12-16 00:39:56,096 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.251:5000
+2025-12-16 00:39:56,096 [33mPress CTRL+C to quit[0m
+2025-12-16 00:39:56,096  * Restarting with stat
+2025-12-16 00:39:56,339  * Debugger is active!
+2025-12-16 00:39:56,340  * Debugger PIN: 670-134-900
+2025-12-16 00:40:21,643 127.0.0.1 - - [16/Dec/2025 00:40:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 00:40:23,341 127.0.0.1 - - [16/Dec/2025 00:40:23] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 00:40:24,887 127.0.0.1 - - [16/Dec/2025 00:40:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-16 00:40:24,955 127.0.0.1 - - [16/Dec/2025 00:40:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-16 00:40:25,114 127.0.0.1 - - [16/Dec/2025 00:40:25] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-16 00:40:27,266 127.0.0.1 - - [16/Dec/2025 00:40:27] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-16 00:40:28,889 127.0.0.1 - - [16/Dec/2025 00:40:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-16 00:40:30,571 127.0.0.1 - - [16/Dec/2025 00:40:30] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-16 00:40:30,681 127.0.0.1 - - [16/Dec/2025 00:40:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:40:31,065 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,069 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,076 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,079 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,083 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,095 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,101 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,191 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-12-16 00:40:31,193 127.0.0.1 - - [16/Dec/2025 00:40:31] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-16 00:40:33,623 127.0.0.1 - - [16/Dec/2025 00:40:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:40:33,946 127.0.0.1 - - [16/Dec/2025 00:40:33] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:40:34,323 127.0.0.1 - - [16/Dec/2025 00:40:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:40:34,334 127.0.0.1 - - [16/Dec/2025 00:40:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:40:34,339 127.0.0.1 - - [16/Dec/2025 00:40:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:40:34,697 127.0.0.1 - - [16/Dec/2025 00:40:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:40:35,079 127.0.0.1 - - [16/Dec/2025 00:40:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:40:39,105 127.0.0.1 - - [16/Dec/2025 00:40:39] "[33mGET /skip_2fa HTTP/1.1[0m" 404 -
+2025-12-16 00:40:43,590 127.0.0.1 - - [16/Dec/2025 00:40:43] "[33mGET /skip_2fa HTTP/1.1[0m" 404 -
+2025-12-16 00:41:26,417 127.0.0.1 - - [16/Dec/2025 00:41:26] "[33mGET /skip_2fa HTTP/1.1[0m" 404 -
+2025-12-16 00:41:54,411  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:41:54,446  * Restarting with stat
+2025-12-16 00:41:54,692  * Debugger is active!
+2025-12-16 00:41:54,692  * Debugger PIN: 670-134-900
+2025-12-16 00:41:56,763  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:41:56,803  * Restarting with stat
+2025-12-16 00:41:57,071  * Debugger is active!
+2025-12-16 00:41:57,071  * Debugger PIN: 670-134-900
+2025-12-16 00:42:04,964 127.0.0.1 - - [16/Dec/2025 00:42:04] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 00:42:06,591 127.0.0.1 - - [16/Dec/2025 00:42:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:06,611 127.0.0.1 - - [16/Dec/2025 00:42:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:06,801 127.0.0.1 - - [16/Dec/2025 00:42:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:08,345 127.0.0.1 - - [16/Dec/2025 00:42:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:09,895 127.0.0.1 - - [16/Dec/2025 00:42:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:11,540 127.0.0.1 - - [16/Dec/2025 00:42:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:42:15,449 127.0.0.1 - - [16/Dec/2025 00:42:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:42:15,809 127.0.0.1 - - [16/Dec/2025 00:42:15] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:42:16,191 127.0.0.1 - - [16/Dec/2025 00:42:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:16,282 127.0.0.1 - - [16/Dec/2025 00:42:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:17,713 127.0.0.1 - - [16/Dec/2025 00:42:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:19,331 127.0.0.1 - - [16/Dec/2025 00:42:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:20,678 User Hi@gmail skipped 2FA verification
+2025-12-16 00:42:20,678 127.0.0.1 - - [16/Dec/2025 00:42:20] "[32mGET /skip_2fa HTTP/1.1[0m" 302 -
+2025-12-16 00:42:21,010 127.0.0.1 - - [16/Dec/2025 00:42:21] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:42:21,381 127.0.0.1 - - [16/Dec/2025 00:42:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:21,385 127.0.0.1 - - [16/Dec/2025 00:42:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:22,505 127.0.0.1 - - [16/Dec/2025 00:42:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:42:22,860 127.0.0.1 - - [16/Dec/2025 00:42:22] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-16 00:42:23,200 127.0.0.1 - - [16/Dec/2025 00:42:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:42:24,472 127.0.0.1 - - [16/Dec/2025 00:42:24] "[32mGET /verify_2fa HTTP/1.1[0m" 302 -
+2025-12-16 00:42:26,192 127.0.0.1 - - [16/Dec/2025 00:42:26] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 00:42:52,069  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:42:52,122  * Restarting with stat
+2025-12-16 00:42:52,404  * Debugger is active!
+2025-12-16 00:42:52,405  * Debugger PIN: 670-134-900
+2025-12-16 00:42:55,505  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 00:42:55,541  * Restarting with stat
+2025-12-16 00:42:55,821  * Debugger is active!
+2025-12-16 00:42:55,822  * Debugger PIN: 670-134-900
+2025-12-16 00:43:07,345 127.0.0.1 - - [16/Dec/2025 00:43:07] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 00:43:07,729 127.0.0.1 - - [16/Dec/2025 00:43:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:07,733 127.0.0.1 - - [16/Dec/2025 00:43:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:07,734 127.0.0.1 - - [16/Dec/2025 00:43:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:08,088 127.0.0.1 - - [16/Dec/2025 00:43:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:08,464 127.0.0.1 - - [16/Dec/2025 00:43:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:08,906 127.0.0.1 - - [16/Dec/2025 00:43:08] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:43:14,069 127.0.0.1 - - [16/Dec/2025 00:43:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 00:43:14,429 127.0.0.1 - - [16/Dec/2025 00:43:14] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:43:14,809 127.0.0.1 - - [16/Dec/2025 00:43:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:14,822 127.0.0.1 - - [16/Dec/2025 00:43:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:14,827 127.0.0.1 - - [16/Dec/2025 00:43:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:15,160 127.0.0.1 - - [16/Dec/2025 00:43:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:15,484 127.0.0.1 - - [16/Dec/2025 00:43:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:17,813 127.0.0.1 - - [16/Dec/2025 00:43:17] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 00:43:18,190 127.0.0.1 - - [16/Dec/2025 00:43:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:18,191 127.0.0.1 - - [16/Dec/2025 00:43:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:18,194 127.0.0.1 - - [16/Dec/2025 00:43:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:18,535 127.0.0.1 - - [16/Dec/2025 00:43:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:18,915 127.0.0.1 - - [16/Dec/2025 00:43:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:19,341 127.0.0.1 - - [16/Dec/2025 00:43:19] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 00:43:21,610 User Hi@gmail skipped 2FA verification
+2025-12-16 00:43:21,610 127.0.0.1 - - [16/Dec/2025 00:43:21] "[32mGET /skip_2fa HTTP/1.1[0m" 302 -
+2025-12-16 00:43:21,945 127.0.0.1 - - [16/Dec/2025 00:43:21] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 00:43:22,312 127.0.0.1 - - [16/Dec/2025 00:43:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:22,324 127.0.0.1 - - [16/Dec/2025 00:43:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:23,502 127.0.0.1 - - [16/Dec/2025 00:43:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:23,852 127.0.0.1 - - [16/Dec/2025 00:43:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:24,228 127.0.0.1 - - [16/Dec/2025 00:43:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:25,488 User Hi@gmail logged out
+2025-12-16 00:43:25,489 127.0.0.1 - - [16/Dec/2025 00:43:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-16 00:43:25,817 127.0.0.1 - - [16/Dec/2025 00:43:25] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 00:43:26,191 127.0.0.1 - - [16/Dec/2025 00:43:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:26,196 127.0.0.1 - - [16/Dec/2025 00:43:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 00:43:26,201 127.0.0.1 - - [16/Dec/2025 00:43:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:26,533 127.0.0.1 - - [16/Dec/2025 00:43:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-16 00:43:26,856 127.0.0.1 - - [16/Dec/2025 00:43:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
