@@ -5083,3 +5083,109 @@
 2025-12-16 07:33:45,990 127.0.0.1 - - [16/Dec/2025 07:33:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2025-12-16 07:33:46,059 127.0.0.1 - - [16/Dec/2025 07:33:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-12-16 07:33:46,100 127.0.0.1 - - [16/Dec/2025 07:33:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 07:40:25,166 127.0.0.1 - - [16/Dec/2025 07:40:25] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 07:40:25,389 127.0.0.1 - - [16/Dec/2025 07:40:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 07:40:25,393 127.0.0.1 - - [16/Dec/2025 07:40:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 07:40:25,395 127.0.0.1 - - [16/Dec/2025 07:40:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 07:40:25,539 127.0.0.1 - - [16/Dec/2025 07:40:25] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-16 07:40:26,783 127.0.0.1 - - [16/Dec/2025 07:40:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 07:40:28,495 127.0.0.1 - - [16/Dec/2025 07:40:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 07:40:28,508 127.0.0.1 - - [16/Dec/2025 07:40:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 07:40:29,447 127.0.0.1 - - [16/Dec/2025 07:40:29] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-12-16 07:40:29,449 127.0.0.1 - - [16/Dec/2025 07:40:29] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-16 07:50:21,428 127.0.0.1 - - [16/Dec/2025 07:50:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 07:50:21,551 127.0.0.1 - - [16/Dec/2025 07:50:21] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 07:50:21,809 127.0.0.1 - - [16/Dec/2025 07:50:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 07:50:21,817 127.0.0.1 - - [16/Dec/2025 07:50:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 07:50:21,819 127.0.0.1 - - [16/Dec/2025 07:50:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 07:50:21,932 127.0.0.1 - - [16/Dec/2025 07:50:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 07:50:23,339 127.0.0.1 - - [16/Dec/2025 07:50:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 08:08:50,258  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 08:08:50,299  * Restarting with stat
+2025-12-16 08:08:50,588  * Debugger is active!
+2025-12-16 08:08:50,589  * Debugger PIN: 144-126-163
+2025-12-16 08:08:52,680  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 08:08:52,724  * Restarting with stat
+2025-12-16 08:08:52,950  * Debugger is active!
+2025-12-16 08:08:52,951  * Debugger PIN: 144-126-163
+2025-12-16 08:08:55,019  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 08:08:55,044  * Restarting with stat
+2025-12-16 08:08:55,243  * Debugger is active!
+2025-12-16 08:08:55,243  * Debugger PIN: 144-126-163
+2025-12-16 08:09:08,496  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 08:09:08,521  * Restarting with stat
+2025-12-16 08:09:08,850  * Debugger is active!
+2025-12-16 08:09:08,850  * Debugger PIN: 144-126-163
+2025-12-16 08:09:15,069  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-16 08:09:15,094  * Restarting with stat
+2025-12-16 08:09:15,334  * Debugger is active!
+2025-12-16 08:09:15,334  * Debugger PIN: 144-126-163
+2025-12-16 08:09:17,402  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/userManagement.py', reloading
+2025-12-16 08:09:17,429  * Restarting with stat
+2025-12-16 08:09:17,642  * Debugger is active!
+2025-12-16 08:09:17,642  * Debugger PIN: 144-126-163
+2025-12-16 08:09:20,731  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 08:09:20,757  * Restarting with stat
+2025-12-16 08:09:20,951  * Debugger is active!
+2025-12-16 08:09:20,952  * Debugger PIN: 144-126-163
+2025-12-16 08:09:23,035  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 08:09:23,061  * Restarting with stat
+2025-12-16 08:09:23,259  * Debugger is active!
+2025-12-16 08:09:23,259  * Debugger PIN: 144-126-163
+2025-12-16 08:09:36,507  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 08:09:36,534  * Restarting with stat
+2025-12-16 08:09:36,735  * Debugger is active!
+2025-12-16 08:09:36,735  * Debugger PIN: 144-126-163
+2025-12-16 08:09:38,812  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 08:09:38,845  * Restarting with stat
+2025-12-16 08:09:39,058  * Debugger is active!
+2025-12-16 08:09:39,058  * Debugger PIN: 144-126-163
+2025-12-16 08:09:42,141  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FA_QR.py', reloading
+2025-12-16 08:09:42,167  * Restarting with stat
+2025-12-16 08:09:42,382  * Debugger is active!
+2025-12-16 08:09:42,382  * Debugger PIN: 144-126-163
+2025-12-16 08:09:42,984 127.0.0.1 - - [16/Dec/2025 08:09:42] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 08:09:43,215 127.0.0.1 - - [16/Dec/2025 08:09:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:09:43,216 127.0.0.1 - - [16/Dec/2025 08:09:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:09:43,216 127.0.0.1 - - [16/Dec/2025 08:09:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:09:43,325 127.0.0.1 - - [16/Dec/2025 08:09:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:09:44,652 127.0.0.1 - - [16/Dec/2025 08:09:44] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-16 08:10:00,683 127.0.0.1 - - [16/Dec/2025 08:10:00] "POST /login HTTP/1.1" 200 -
+2025-12-16 08:10:00,775 127.0.0.1 - - [16/Dec/2025 08:10:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:00,777 127.0.0.1 - - [16/Dec/2025 08:10:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:00,780 127.0.0.1 - - [16/Dec/2025 08:10:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:00,844 127.0.0.1 - - [16/Dec/2025 08:10:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:05,397 127.0.0.1 - - [16/Dec/2025 08:10:05] "POST /login HTTP/1.1" 200 -
+2025-12-16 08:10:05,476 127.0.0.1 - - [16/Dec/2025 08:10:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:05,479 127.0.0.1 - - [16/Dec/2025 08:10:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:05,481 127.0.0.1 - - [16/Dec/2025 08:10:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:05,531 127.0.0.1 - - [16/Dec/2025 08:10:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:09,886 127.0.0.1 - - [16/Dec/2025 08:10:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-16 08:10:09,971 127.0.0.1 - - [16/Dec/2025 08:10:09] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-16 08:10:10,066 127.0.0.1 - - [16/Dec/2025 08:10:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:10,069 127.0.0.1 - - [16/Dec/2025 08:10:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:10,071 127.0.0.1 - - [16/Dec/2025 08:10:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:10,148 127.0.0.1 - - [16/Dec/2025 08:10:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:37,703 127.0.0.1 - - [16/Dec/2025 08:10:37] "[32mPOST /verify_2fa HTTP/1.1[0m" 302 -
+2025-12-16 08:10:37,777 127.0.0.1 - - [16/Dec/2025 08:10:37] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 08:10:37,867 127.0.0.1 - - [16/Dec/2025 08:10:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:37,871 127.0.0.1 - - [16/Dec/2025 08:10:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:37,875 127.0.0.1 - - [16/Dec/2025 08:10:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:37,880 127.0.0.1 - - [16/Dec/2025 08:10:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:57,572 127.0.0.1 - - [16/Dec/2025 08:10:57] "[32mPOST /index.html HTTP/1.1[0m" 302 -
+2025-12-16 08:10:57,629 127.0.0.1 - - [16/Dec/2025 08:10:57] "GET /index.html HTTP/1.1" 200 -
+2025-12-16 08:10:57,704 127.0.0.1 - - [16/Dec/2025 08:10:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:57,715 127.0.0.1 - - [16/Dec/2025 08:10:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:57,717 127.0.0.1 - - [16/Dec/2025 08:10:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:57,720 127.0.0.1 - - [16/Dec/2025 08:10:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:59,747 User KelvinA@Gmail.com logged out
+2025-12-16 08:10:59,747 127.0.0.1 - - [16/Dec/2025 08:10:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-16 08:10:59,801 127.0.0.1 - - [16/Dec/2025 08:10:59] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 08:10:59,875 127.0.0.1 - - [16/Dec/2025 08:10:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:59,878 127.0.0.1 - - [16/Dec/2025 08:10:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 08:10:59,881 127.0.0.1 - - [16/Dec/2025 08:10:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 08:10:59,955 127.0.0.1 - - [16/Dec/2025 08:10:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 08:12:46,510  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 08:12:46,546  * Restarting with stat
+2025-12-16 08:12:46,745  * Debugger is active!
+2025-12-16 08:12:46,745  * Debugger PIN: 144-126-163

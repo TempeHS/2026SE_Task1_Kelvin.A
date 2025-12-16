@@ -104,10 +104,10 @@ def NewUser(email, password):
     except sql.IntegrityError:
         con.close()
         return (False, "User already exists")
-    except Exception as e:
+    except sql.Error as e:
         try:
             con.close()
-        except Exception:
+        except sql.Error:
             pass
         return (False, str(e))
 
@@ -133,7 +133,7 @@ def authenticate(email, password):
             return bcrypt.checkpw(password.encode("utf-8"), stored_bytes)
         else:
             return password == stored
-    except Exception:
+    except sql.Error:
         return False
 
 
@@ -157,10 +157,10 @@ def get_2fa_key(email):
             con.commit()
             con.close()
             return new_key
-    except Exception as e:
+    except sql.Error:
         try:
             con.close()
-        except Exception:
+        except sql.Error:
             pass
         return None
 
@@ -174,7 +174,7 @@ def verify_2fa_code(email, code):
 
         totp = pyotp.TOTP(key)
         return totp.verify(code, valid_window=1)
-    except Exception:
+    except (ValueError, TypeError):
         return False
 
 
@@ -187,7 +187,7 @@ def get_2fa_qr_uri(email):
 
         totp = pyotp.TOTP(key)
         return totp.provisioning_uri(name=email, issuer_name="Secure Flask PWA")
-    except Exception:
+    except (ValueError, TypeError):
         return None
 
 
@@ -213,5 +213,5 @@ def get_2fa_qr_code_base64(email):
         img_base64 = base64.b64encode(buffer.getvalue()).decode()
 
         return f"data:image/png;base64,{img_base64}"
-    except Exception:
+    except (ValueError, TypeError, OSError):
         return None

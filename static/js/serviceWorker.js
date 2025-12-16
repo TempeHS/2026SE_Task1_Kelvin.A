@@ -1,20 +1,20 @@
 const assets = [
-  "static/css/style.css",
-  "static/css/style.css/bootstrap.min.css",
-  "static/js/bootstrap.bundle.min.js",
-  "static/js/app.js",
-  "static/images/logo.png",
-  "static/images/favicon.jpg",
-  "static/icons/icon-128x128.png",
-  "static/icons/icon-192x192.png",
-  "static/icons/icon-384x384.png",
-  "static/icons/icon-512x512.png",
-  "static/icons/desktop_screenshot.png",
-  "static/icons/mobile_screenshot.png",
+  "/static/css/style.css",
+  "/static/css/bootstrap.min.css",
+  "/static/js/bootstrap.bundle.min.js",
+  "/static/js/app.js",
+  "/static/images/logo.png",
+  "/static/images/favicon.jpg",
+  "/static/icons/icon-128x128.png",
+  "/static/icons/icon-192x192.png",
+  "/static/icons/icon-384x384.png",
+  "/static/icons/icon-512x512.png",
+  "/static/icons/desktop_screenshot.png",
+  "/static/icons/mobile_screenshot.png",
   "/offline.html",
 ];
 
-// Don't cache these sensitive pages
+// Don't cache these pages
 const NO_CACHE_URLS = [
   "/",
   "/index.html",
@@ -66,25 +66,37 @@ self.addEventListener("fetch", function (evt) {
   // Don't cache sensitive pages
   if (NO_CACHE_URLS.includes(pathname)) {
     evt.respondWith(
-      fetch(evt.request).catch(() => {
-        // If sensitive page and offline, show offline page
+      fetch(evt.request, { cache: "no-store" }).catch(() => {
+        // Only if network fails (offline)
         if (evt.request.mode === "navigate") {
           return caches.match("/offline.html");
         }
+        return new Response("Network error", {
+          status: 408,
+          statusText: "Network error",
+        });
       })
     );
     return;
   }
 
+  // try network first, then cache
   evt.respondWith(
-    fetch(evt.request).catch(() => {
+    fetch(evt.request, { cache: "no-store" }).catch(() => {
+      // Network failed
       return caches.open(CATALOGUE_ASSETS).then((cache) => {
         return cache.match(evt.request).then((response) => {
-          // If page navigation and not in cache, show offline page
+          // not in cache, show offline page
           if (!response && evt.request.mode === "navigate") {
             return caches.match("/offline.html");
           }
-          return response;
+          return (
+            response ||
+            new Response("Offline and not cached", {
+              status: 404,
+              statusText: "Offline and not cached",
+            })
+          );
         });
       });
     })

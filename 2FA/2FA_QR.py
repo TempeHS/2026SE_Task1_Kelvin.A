@@ -1,5 +1,4 @@
 import pyotp
-import time
 import qrcode
 
 
@@ -16,14 +15,14 @@ def verify_code(key: str, code: str):
     return totp.verify(code)
 
 
-key = gen_key()
+if __name__ == "__main__":
+    # Generate key and QR code
+    user_key = gen_key()
+    user_totp = pyotp.TOTP(user_key)
+    qr_uri = gen_url(user_key)
 
-totp = pyotp.TOTP(key)
+    qrcode.make(qr_uri).save("NCode.png")
 
-uri = gen_url(key)
-
-qe.make(uri).save("NCode.png")
-
-while True:
-    code = input("enter code: ")
-    print(verify_code(key, code))
+    while True:
+        user_code = input("enter code: ")
+        print(verify_code(user_key, user_code))

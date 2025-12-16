@@ -2,13 +2,12 @@ from flask import Flask
 from flask import redirect
 from flask import render_template
 from flask import request
-from flask import jsonify
 from flask import session
-import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
 from datetime import timedelta
+import sqlite3 as sql
 
 import userManagement as dbHandler
 
@@ -32,8 +31,8 @@ try:
     dbHandler.getUsers()
     dbHandler.init_2fa_column()
     dbHandler.init_dev_logs_table()
-except Exception as e:
-    app.logger.error(f"Failed to initialize database: {e}")
+except (sql.Error, OSError) as e:
+    app.logger.error("Failed to initialize database: %s", e)
 
 
 # Redirect index.html to domain root for consistent UX
@@ -66,7 +65,7 @@ def root():
         "frame-src": "'none'",
     }
 )
-def open():
+def index_redirect():
     if "email" in session:
         return redirect("/index.html", 302)
     return redirect("/Login.html", 302)
@@ -107,12 +106,7 @@ def index():
 # example CSRF protected form
 @app.route("/Login.html", methods=["POST", "GET"])
 def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/Login.html")
-    else:
-        return render_template("/Login.html")
+    return render_template("/Login.html")
 
 
 # Redirect to Index.html
@@ -214,7 +208,7 @@ def setup_2fa():
 def logout():
     email = session.get("email", "unknown")
     session.clear()
-    app.logger.info(f"User {email} logged out")
+    app.logger.info("User %s logged out", email)
     return redirect("/Login.html", 302)
 
 

@@ -20,19 +20,21 @@ def verify_code(key: str, code: str):
     return totp.verify(code)
 
 
-key = gen_key()  # TOFO: Put in Database
+if __name__ == "__main__":
+    # TODO: Put in Database
+    user_key = gen_key()
 
-print(key)
+    print(user_key)
 
-uri = gen_url(key)
+    qr_uri = gen_url(user_key)
 
-print(uri)
+    print(qr_uri)
 
-code = generate_code(key)
-print(code)
+    user_code = generate_code(user_key)
+    print(user_code)
 
-time.sleep(30)
-code2 = generate_code(key)
+    time.sleep(30)
+    user_code2 = generate_code(user_key)
 
-print(verify_code(key, code))
-print(verify_code(key, code2))
+    print(verify_code(user_key, user_code))
+    print(verify_code(user_key, user_code2))
