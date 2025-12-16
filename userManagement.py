@@ -29,6 +29,51 @@ def init_2fa_column():
         pass
 
 
+def init_dev_logs_table():
+    """Create developer logs table if it doesn't exist"""
+    con = sql.connect(DB)
+    cur = con.cursor()
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS dev_logs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            message TEXT NOT NULL,
+            developer TEXT NOT NULL,
+            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+    """
+    )
+    con.commit()
+    con.close()
+
+
+def add_dev_log(message, developer):
+    """Add a new developer log entry"""
+    if not message or not developer:
+        return False
+
+    con = sql.connect(DB)
+    cur = con.cursor()
+    cur.execute(
+        "INSERT INTO dev_logs (message, developer) VALUES (?, ?)", (message, developer)
+    )
+    con.commit()
+    con.close()
+    return True
+
+
+def get_dev_logs():
+    """Retrieve all developer logs ordered by most recent first"""
+    con = sql.connect(DB)
+    cur = con.cursor()
+    cur.execute(
+        "SELECT id, message, developer, timestamp FROM dev_logs ORDER BY timestamp DESC"
+    )
+    logs = cur.fetchall()
+    con.close()
+    return logs
+
+
 def NewUser(email, password):
     if not email or not password:
         return (False, "Email and password required")

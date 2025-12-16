@@ -1,13 +1,97 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display-1">Hello world!</h1>
-    </div>
-    <div class="col-auto">
-      <a href="/logout" class="btn btn-danger">Logout</a>
+<div class="container mt-4">
+  <h1>Developer Logs</h1>
+
+  <!-- Form to add new log -->
+  <div class="card mb-4">
+    <div class="card-body">
+      <h5 class="card-title">
+        Add New Log Entry (Message will be logged as Developer Signed In)
+      </h5>
+      <form method="POST" action="/index.html">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="mb-3">
+          <label for="message" class="form-label">Log Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="Enter your developer log message..."
+            required
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="time_worked" class="form-label"
+            >Time Worked (hours)</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="time_worked"
+            name="time_worked"
+            step="0.5"
+            min="0"
+            placeholder="e.g., 2.5"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="repo_link" class="form-label">Repository Link</label>
+          <input
+            type="url"
+            class="form-control"
+            id="repo_link"
+            name="repo_link"
+            placeholder="https://github.com/username/repo"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Add Log</button>
+      </form>
     </div>
   </div>
-  <div class="row"></div>
+
+  <!-- Display logs table -->
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Message</th>
+        <th scope="col">Developer</th>
+        <th scope="col">Time Worked (hrs)</th>
+        <th scope="col">Repo Link</th>
+        <th scope="col">Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% if logs %} {% for log in logs %}
+      <tr>
+        <th scope="row">{{ log[0] }}</th>
+        <td>{{ log[1] }}</td>
+        <td>{{ log[2] }}</td>
+        <td>{{ log[3] }}</td>
+        <td>
+          <a
+            href="{{ log[4] }}"
+            target="_blank"
+            class="btn btn-sm btn-outline-primary"
+            >View Repo</a
+          >
+        </td>
+        <td>{{ log[5] }}</td>
+      </tr>
+      {% endfor %} {% else %}
+      <tr>
+        <td colspan="6" class="text-center text-muted">No logs yet.</td>
+      </tr>
+      {% endif %}
+    </tbody>
+  </table>
+
+  <div class="mt-3">
+    <a href="/logout" class="btn btn-danger">Logout</a>
+  </div>
 </div>
+
 {% endblock %}

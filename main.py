@@ -31,6 +31,7 @@ csrf = CSRFProtect(app)
 try:
     dbHandler.getUsers()
     dbHandler.init_2fa_column()
+    dbHandler.init_dev_logs_table()
 except Exception as e:
     app.logger.error(f"Failed to initialize database: {e}")
 
@@ -76,11 +77,19 @@ def privacy():
     return render_template("/privacy.html")
 
 
-@app.route("/index.html", methods=["GET"])
+@app.route("/index.html", methods=["GET", "POST"])
 def index():
     if "email" not in session:
         return redirect("/Login.html", 302)
-    return render_template("index.html")
+
+    if request.method == "POST":
+        message = request.form.get("message")
+        if message:
+            dbHandler.add_dev_log(message, session["email"])
+        return redirect("/index.html", 302)
+
+    logs = dbHandler.get_dev_logs()
+    return render_template("index.html", logs=logs)
 
 
 # example CSRF protected form
