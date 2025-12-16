@@ -77,6 +77,11 @@ def privacy():
     return render_template("/privacy.html")
 
 
+@app.route("/offline.html", methods=["GET"])
+def offline():
+    return render_template("/offline.html")
+
+
 @app.route("/index.html", methods=["GET", "POST"])
 def index():
     if "email" not in session:
@@ -187,20 +192,6 @@ def verify_2fa():
     return render_template(
         "2fa.html", qr_code=qr_code, secret_key=secret_key, email=email
     )
-
-
-# Skip 2FA route
-@app.route("/skip_2fa", methods=["GET"])
-def skip_2fa():
-    if "email_pending_2fa" not in session:
-        return redirect("/Login.html", 302)
-
-    email = session["email_pending_2fa"]
-    # Complete login without 2FA
-    session["email"] = email
-    session.pop("email_pending_2fa", None)
-    app.logger.warning(f"User {email} skipped 2FA verification")
-    return redirect("/index.html", 302)
 
 
 # 2FA setup route

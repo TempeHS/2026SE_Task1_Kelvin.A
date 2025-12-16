@@ -11,6 +11,7 @@ const assets = [
   "static/icons/icon-512x512.png",
   "static/icons/desktop_screenshot.png",
   "static/icons/mobile_screenshot.png",
+  "/offline.html",
 ];
 
 // Don't cache these sensitive pages
@@ -64,14 +65,27 @@ self.addEventListener("fetch", function (evt) {
 
   // Don't cache sensitive pages
   if (NO_CACHE_URLS.includes(pathname)) {
-    evt.respondWith(fetch(evt.request));
+    evt.respondWith(
+      fetch(evt.request).catch(() => {
+        // If sensitive page and offline, show offline page
+        if (evt.request.mode === "navigate") {
+          return caches.match("/offline.html");
+        }
+      })
+    );
     return;
   }
 
   evt.respondWith(
     fetch(evt.request).catch(() => {
       return caches.open(CATALOGUE_ASSETS).then((cache) => {
-        return cache.match(evt.request);
+        return cache.match(evt.request).then((response) => {
+          // If page navigation and not in cache, show offline page
+          if (!response && evt.request.mode === "navigate") {
+            return caches.match("/offline.html");
+          }
+          return response;
+        });
       });
     })
   );
