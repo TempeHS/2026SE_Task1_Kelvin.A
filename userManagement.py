@@ -39,6 +39,8 @@ def init_dev_logs_table():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             message TEXT NOT NULL,
             developer TEXT NOT NULL,
+            time_worked REAL NOT NULL,
+            repo_link TEXT NOT NULL,
             timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     """
@@ -47,15 +49,16 @@ def init_dev_logs_table():
     con.close()
 
 
-def add_dev_log(message, developer):
+def add_dev_log(message, developer, time_worked, repo_link):
     """Add a new developer log entry"""
-    if not message or not developer:
+    if not message or not developer or time_worked is None or not repo_link:
         return False
 
     con = sql.connect(DB)
     cur = con.cursor()
     cur.execute(
-        "INSERT INTO dev_logs (message, developer) VALUES (?, ?)", (message, developer)
+        "INSERT INTO dev_logs (message, developer, time_worked, repo_link) VALUES (?, ?, ?, ?)",
+        (message, developer, time_worked, repo_link),
     )
     con.commit()
     con.close()
@@ -67,7 +70,7 @@ def get_dev_logs():
     con = sql.connect(DB)
     cur = con.cursor()
     cur.execute(
-        "SELECT id, message, developer, timestamp FROM dev_logs ORDER BY timestamp DESC"
+        "SELECT id, message, developer, time_worked, repo_link, timestamp FROM dev_logs ORDER BY timestamp DESC"
     )
     logs = cur.fetchall()
     con.close()

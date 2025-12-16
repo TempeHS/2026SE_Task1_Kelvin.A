@@ -84,8 +84,14 @@ def index():
 
     if request.method == "POST":
         message = request.form.get("message")
-        if message:
-            dbHandler.add_dev_log(message, session["email"])
+        time_worked = request.form.get("time_worked")
+        repo_link = request.form.get("repo_link")
+        if message and time_worked and repo_link:
+            try:
+                time_worked = float(time_worked)
+                dbHandler.add_dev_log(message, session["email"], time_worked, repo_link)
+            except ValueError:
+                pass
         return redirect("/index.html", 302)
 
     logs = dbHandler.get_dev_logs()
