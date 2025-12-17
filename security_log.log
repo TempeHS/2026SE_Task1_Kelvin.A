@@ -5292,3 +5292,61 @@
 2025-12-17 06:18:46,110  * Restarting with stat
 2025-12-17 06:18:46,323  * Debugger is active!
 2025-12-17 06:18:46,323  * Debugger PIN: 541-588-211
+2025-12-17 22:48:28,136 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.254:5000
+2025-12-17 22:48:28,137 [33mPress CTRL+C to quit[0m
+2025-12-17 22:48:28,138  * Restarting with stat
+2025-12-17 22:48:28,336  * Debugger is active!
+2025-12-17 22:48:28,336  * Debugger PIN: 207-896-216
+2025-12-17 22:48:32,750 127.0.0.1 - - [17/Dec/2025 22:48:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-17 22:48:32,887 127.0.0.1 - - [17/Dec/2025 22:48:32] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 22:48:33,084 127.0.0.1 - - [17/Dec/2025 22:48:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:33,085 127.0.0.1 - - [17/Dec/2025 22:48:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 22:48:33,100 127.0.0.1 - - [17/Dec/2025 22:48:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:33,221 127.0.0.1 - - [17/Dec/2025 22:48:33] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-17 22:48:33,257 127.0.0.1 - - [17/Dec/2025 22:48:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-17 22:48:37,119 127.0.0.1 - - [17/Dec/2025 22:48:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:37,123 127.0.0.1 - - [17/Dec/2025 22:48:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:37,164 127.0.0.1 - - [17/Dec/2025 22:48:37] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:37,187 127.0.0.1 - - [17/Dec/2025 22:48:37] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:44,214 127.0.0.1 - - [17/Dec/2025 22:48:44] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:45,803 127.0.0.1 - - [17/Dec/2025 22:48:45] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 22:48:45,912 127.0.0.1 - - [17/Dec/2025 22:48:45] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-17 22:48:45,913 127.0.0.1 - - [17/Dec/2025 22:48:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-17 22:48:45,914 127.0.0.1 - - [17/Dec/2025 22:48:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-17 22:48:46,037 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-17 22:48:46,040 127.0.0.1 - - [17/Dec/2025 22:48:46] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:46,133 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,134 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-17 22:48:46,236 127.0.0.1 - - [17/Dec/2025 22:48:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:46,238 127.0.0.1 - - [17/Dec/2025 22:48:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 22:48:46,247 127.0.0.1 - - [17/Dec/2025 22:48:46] "[33mGET /static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-12-17 22:48:46,252 127.0.0.1 - - [17/Dec/2025 22:48:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 22:48:46,253 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/icons/icon-192x192.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,256 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/icons/icon-512x512.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,263 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/icons/mobile_screenshot.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,268 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/icons/icon-128x128.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,269 127.0.0.1 - - [17/Dec/2025 22:48:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:46,269 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/icons/icon-384x384.png HTTP/1.1" 200 -
+2025-12-17 22:48:46,285 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /offline.html HTTP/1.1" 200 -
+2025-12-17 22:48:46,327 127.0.0.1 - - [17/Dec/2025 22:48:46] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-12-17 22:48:49,073 127.0.0.1 - - [17/Dec/2025 22:48:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-17 22:48:49,083 127.0.0.1 - - [17/Dec/2025 22:48:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 22:48:49,221 127.0.0.1 - - [17/Dec/2025 22:48:49] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2025-12-17 22:48:49,309 127.0.0.1 - - [17/Dec/2025 22:48:49] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:50,974 127.0.0.1 - - [17/Dec/2025 22:48:50] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:51,070 127.0.0.1 - - [17/Dec/2025 22:48:51] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-12-17 22:48:51,410 127.0.0.1 - - [17/Dec/2025 22:48:51] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-12-17 22:55:12,195 127.0.0.1 - - [17/Dec/2025 22:55:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-17 22:55:12,412 127.0.0.1 - - [17/Dec/2025 22:55:12] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 22:55:12,726 127.0.0.1 - - [17/Dec/2025 22:55:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 22:55:12,763 127.0.0.1 - - [17/Dec/2025 22:55:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 22:55:12,783 127.0.0.1 - - [17/Dec/2025 22:55:12] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-17 22:55:13,017 127.0.0.1 - - [17/Dec/2025 22:55:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 22:55:13,088 127.0.0.1 - - [17/Dec/2025 22:55:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-17 22:55:17,761  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/main.py', reloading
+2025-12-17 22:55:17,863  * Restarting with stat
+2025-12-17 22:55:18,290  * Debugger is active!
+2025-12-17 22:55:18,291  * Debugger PIN: 207-896-216
