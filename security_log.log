@@ -5189,3 +5189,106 @@
 2025-12-16 08:12:46,546  * Restarting with stat
 2025-12-16 08:12:46,745  * Debugger is active!
 2025-12-16 08:12:46,745  * Debugger PIN: 144-126-163
+2025-12-16 08:14:31,505  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/2FA/2FAPY.py', reloading
+2025-12-16 08:14:31,530  * Restarting with stat
+2025-12-16 08:14:31,738  * Debugger is active!
+2025-12-16 08:14:31,738  * Debugger PIN: 144-126-163
+2025-12-16 10:41:12,948 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.123:5000
+2025-12-16 10:41:12,964 [33mPress CTRL+C to quit[0m
+2025-12-16 10:41:12,966  * Restarting with stat
+2025-12-16 10:41:13,562  * Debugger is active!
+2025-12-16 10:41:13,563  * Debugger PIN: 524-853-179
+2025-12-16 10:41:17,575 127.0.0.1 - - [16/Dec/2025 10:41:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-16 10:41:17,774 127.0.0.1 - - [16/Dec/2025 10:41:17] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 10:41:18,032 127.0.0.1 - - [16/Dec/2025 10:41:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:41:18,037 127.0.0.1 - - [16/Dec/2025 10:41:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:41:18,040 127.0.0.1 - - [16/Dec/2025 10:41:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:41:18,204 127.0.0.1 - - [16/Dec/2025 10:41:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:41:29,796 127.0.0.1 - - [16/Dec/2025 10:41:29] "GET /Login.html HTTP/1.1" 200 -
+2025-12-16 10:41:29,954 127.0.0.1 - - [16/Dec/2025 10:41:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:41:29,964 127.0.0.1 - - [16/Dec/2025 10:41:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:41:29,968 127.0.0.1 - - [16/Dec/2025 10:41:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:41:30,048 127.0.0.1 - - [16/Dec/2025 10:41:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:44:06,189 127.0.0.1 - - [16/Dec/2025 10:44:06] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-16 10:44:06,480 127.0.0.1 - - [16/Dec/2025 10:44:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:44:06,485 127.0.0.1 - - [16/Dec/2025 10:44:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:44:06,496 127.0.0.1 - - [16/Dec/2025 10:44:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:44:06,619 127.0.0.1 - - [16/Dec/2025 10:44:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-16 10:44:13,911 127.0.0.1 - - [16/Dec/2025 10:44:13] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-16 10:44:13,995 127.0.0.1 - - [16/Dec/2025 10:44:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-16 10:44:14,004 127.0.0.1 - - [16/Dec/2025 10:44:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-16 10:44:14,008 127.0.0.1 - - [16/Dec/2025 10:44:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-16 10:44:14,075 127.0.0.1 - - [16/Dec/2025 10:44:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:07:14,735 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.253:5000
+2025-12-17 00:07:14,735 [33mPress CTRL+C to quit[0m
+2025-12-17 00:07:14,736  * Restarting with stat
+2025-12-17 00:07:15,035  * Debugger is active!
+2025-12-17 00:07:15,035  * Debugger PIN: 213-880-114
+2025-12-17 00:07:22,968 127.0.0.1 - - [17/Dec/2025 00:07:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-17 00:07:23,156 127.0.0.1 - - [17/Dec/2025 00:07:23] "GET /index.html HTTP/1.1" 200 -
+2025-12-17 00:07:23,973 127.0.0.1 - - [17/Dec/2025 00:07:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:07:23,974 127.0.0.1 - - [17/Dec/2025 00:07:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:07:23,974 127.0.0.1 - - [17/Dec/2025 00:07:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:07:24,093 127.0.0.1 - - [17/Dec/2025 00:07:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-17 00:08:00,989 User Hi@gmail logged out
+2025-12-17 00:08:00,989 127.0.0.1 - - [17/Dec/2025 00:08:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-17 00:08:01,022 127.0.0.1 - - [17/Dec/2025 00:08:01] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 00:08:01,105 127.0.0.1 - - [17/Dec/2025 00:08:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:01,109 127.0.0.1 - - [17/Dec/2025 00:08:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:01,117 127.0.0.1 - - [17/Dec/2025 00:08:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:01,181 127.0.0.1 - - [17/Dec/2025 00:08:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:02,499 127.0.0.1 - - [17/Dec/2025 00:08:02] "GET /Signup.html HTTP/1.1" 200 -
+2025-12-17 00:08:02,591 127.0.0.1 - - [17/Dec/2025 00:08:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:02,597 127.0.0.1 - - [17/Dec/2025 00:08:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:02,602 127.0.0.1 - - [17/Dec/2025 00:08:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:02,637 127.0.0.1 - - [17/Dec/2025 00:08:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,103 127.0.0.1 - - [17/Dec/2025 00:08:14] "POST /Signup.html HTTP/1.1" 200 -
+2025-12-17 00:08:14,186 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,190 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,192 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,224 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,913 127.0.0.1 - - [17/Dec/2025 00:08:14] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 00:08:14,992 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,995 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:14,998 127.0.0.1 - - [17/Dec/2025 00:08:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:15,047 127.0.0.1 - - [17/Dec/2025 00:08:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:21,505 127.0.0.1 - - [17/Dec/2025 00:08:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-17 00:08:21,580 127.0.0.1 - - [17/Dec/2025 00:08:21] "GET /verify_2fa HTTP/1.1" 200 -
+2025-12-17 00:08:21,668 127.0.0.1 - - [17/Dec/2025 00:08:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:21,670 127.0.0.1 - - [17/Dec/2025 00:08:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:21,673 127.0.0.1 - - [17/Dec/2025 00:08:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:21,720 127.0.0.1 - - [17/Dec/2025 00:08:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:30,721 127.0.0.1 - - [17/Dec/2025 00:08:30] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-17 00:08:30,748 127.0.0.1 - - [17/Dec/2025 00:08:30] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 00:08:30,820 127.0.0.1 - - [17/Dec/2025 00:08:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:30,829 127.0.0.1 - - [17/Dec/2025 00:08:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 00:08:31,071 127.0.0.1 - - [17/Dec/2025 00:08:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 00:08:31,119 127.0.0.1 - - [17/Dec/2025 00:08:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 06:10:24,725 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.103:5000
+2025-12-17 06:10:24,727 [33mPress CTRL+C to quit[0m
+2025-12-17 06:10:24,727  * Restarting with stat
+2025-12-17 06:10:24,958  * Debugger is active!
+2025-12-17 06:10:24,958  * Debugger PIN: 541-588-211
+2025-12-17 06:10:30,495 127.0.0.1 - - [17/Dec/2025 06:10:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-17 06:10:30,632 127.0.0.1 - - [17/Dec/2025 06:10:30] "GET /Login.html HTTP/1.1" 200 -
+2025-12-17 06:10:30,831 127.0.0.1 - - [17/Dec/2025 06:10:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-17 06:10:30,834 127.0.0.1 - - [17/Dec/2025 06:10:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-17 06:10:30,842 127.0.0.1 - - [17/Dec/2025 06:10:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-17 06:10:30,969 127.0.0.1 - - [17/Dec/2025 06:10:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-17 06:18:10,996  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/dast_test.py', reloading
+2025-12-17 06:18:11,022  * Restarting with stat
+2025-12-17 06:18:11,219  * Debugger is active!
+2025-12-17 06:18:11,219  * Debugger PIN: 541-588-211
+2025-12-17 06:18:46,080  * Detected change in '/workspaces/2026SE_Task1_Kelvin.A/dast_test.py', reloading
+2025-12-17 06:18:46,110  * Restarting with stat
+2025-12-17 06:18:46,323  * Debugger is active!
+2025-12-17 06:18:46,323  * Debugger PIN: 541-588-211
