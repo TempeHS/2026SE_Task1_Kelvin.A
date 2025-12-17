@@ -46,10 +46,7 @@
 </div>
 
 <script>
-  // Auto-focus on the code input
   document.getElementById("code").focus();
-
-  // Auto-submit when 6 digits are entered
   document.getElementById("code").addEventListener("input", function (e) {
     if (e.target.value.length === 6) {
       e.target.form.submit();

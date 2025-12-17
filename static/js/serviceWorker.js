@@ -67,7 +67,6 @@ self.addEventListener("fetch", function (evt) {
   if (NO_CACHE_URLS.includes(pathname)) {
     evt.respondWith(
       fetch(evt.request, { cache: "no-store" }).catch(() => {
-        // Only if network fails (offline)
         if (evt.request.mode === "navigate") {
           return caches.match("/offline.html");
         }
@@ -80,13 +79,12 @@ self.addEventListener("fetch", function (evt) {
     return;
   }
 
-  // try network first, then cache
   evt.respondWith(
     fetch(evt.request, { cache: "no-store" }).catch(() => {
       // Network failed
       return caches.open(CATALOGUE_ASSETS).then((cache) => {
         return cache.match(evt.request).then((response) => {
-          // not in cache, show offline page
+          // show offline page
           if (!response && evt.request.mode === "navigate") {
             return caches.match("/offline.html");
           }
@@ -103,7 +101,6 @@ self.addEventListener("fetch", function (evt) {
   );
 });
 
-// Clear cache on message from client
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "CLEAR_CACHE") {
     event.waitUntil(

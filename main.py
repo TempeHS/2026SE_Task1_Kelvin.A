@@ -11,8 +11,6 @@ import sqlite3 as sql
 
 import userManagement as dbHandler
 
-# Code snippet for logging a message
-# app.logger.critical("message")
 
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
@@ -35,7 +33,6 @@ except (sql.Error, OSError) as e:
     app.logger.error("Failed to initialize database: %s", e)
 
 
-# Redirect index.html to domain root for consistent UX
 @app.route("/index", methods=["GET"])
 @app.route("/index.htm", methods=["GET"])
 @app.route("/index.asp", methods=["GET"])
@@ -47,7 +44,6 @@ def root():
 @app.route("/", methods=["POST", "GET"])
 @csp_header(
     {
-        # Server Side CSP is consistent with meta CSP in layout.html
         "base-uri": "'self'",
         "default-src": "'self'",
         "style-src": "'self'",
@@ -172,7 +168,6 @@ def verify_2fa():
             )
 
         if dbHandler.verify_2fa_code(email, code):
-            # 2FA successful - complete the login
             session["email"] = email
             session.pop("email_pending_2fa", None)
             return redirect("/index.html", 302)
@@ -181,7 +176,6 @@ def verify_2fa():
                 "2fa.html", message="Invalid verification code", message_type="danger"
             )
 
-    # Generate QR code image and secret for first-time setup
     qr_code = dbHandler.get_2fa_qr_code_base64(email)
     secret_key = dbHandler.get_2fa_key(email)
     return render_template(
